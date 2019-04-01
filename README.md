@@ -24,7 +24,7 @@ Areas that we are working on, or interested in & want to help improve in/with Ru
 
 * 🤖 __[Machine learning](http://www.arewelearningyet.com/)__
 
-* 🚀 __High-performance runtime__ - CPU job scheduling
+* 🚀 __High-performance runtime__ - CPU job manager, compiler optimizations, optimizing crates, profilers
 
 * 📺📱 __Console & mobile platform support__ - PlayStation, Xbox, Stadia, future consoles. iOS & Android
 
@@ -48,4 +48,6 @@ Open-source sponsorship
 
 Contracting work
 
-Oh and we are also [hiring](https://www.embark-studios.com/#jobs) for full-time positions in Stockholm and remote. Let's go! 🚀
+Oh and we are also [hiring](https://www.embark-studios.com/#jobs) for full-time positions in Stockholm and remote. 
+
+Let's go! 🚀

@@ -1,8 +1,8 @@
 # Embark Rust Ecosystem
 
-High-level tracking and discussions about improving Rust and the Rust ecosystem for game development at [Embark](http://embark-studios.com).
+High-level tracking and discussions about improving Rust and the Rust ecosystem for game development at [Embark](http://embark-studios.com) and in general.
 
-[Issues](https://github.com/EmbarkStudios/rust-ecosystem/issues)
+Check out the __[Issues](https://github.com/EmbarkStudios/rust-ecosystem/issues)__ for active topics & discussions!
 
 ## Background
 

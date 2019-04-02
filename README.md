@@ -16,19 +16,19 @@ Areas that we are working on, or interested in & want to help improve in/with Ru
 
 * 🕹️ __[Game engine systems](http://arewegameyet.com/)__ - multiplayer, rendering, physics, audio, server, assets, workflows
 
-* 📦 __Developer iteration times__
+* 📦 __Developer experience__ - fast iteration with large projects/monorepos, debugging, profiling, IDE, tools
 
-* 🍃 __[Bazel](https://bazel.build/)__ - distributed & unified multi-language build system. [#19](https://github.com/EmbarkStudios/rust-ecosystem/issues/19)
+* 🍃 __[Bazel](https://bazel.build/)__ - distributed & unified multi-ecosystem build system. [#19](https://github.com/EmbarkStudios/rust-ecosystem/issues/19)
 
 * 🛸 __[WebAssembly](https://webassembly.org/) and [WASI](https://hacks.mozilla.org/2019/03/standardizing-wasi-a-webassembly-system-interface/)__ - sandboxed safe Rust code on client, edge & cloud
 
-* 🤖 __[Machine learning](http://www.arewelearningyet.com/)__
+* 🤖 __[Machine learning](http://www.arewelearningyet.com/)__ - efficient inference, library bindings, training environments
 
-* 🚀 __High-performance runtime__ - CPU job manager, compiler optimizations, optimizing crates, profilers
+* 🚀 __High performance runtime__ - CPU job scheduling, code generation, optimizing crates
 
-* 📺📱 __Console & mobile platform support__ - PlayStation, Xbox, Stadia, future consoles. iOS & Android
+* 📺📱 __Console & mobile platform support__ - PlayStation, Xbox, Stadia, future hw. iOS & Android. [#18](https://github.com/EmbarkStudios/rust-ecosystem/issues/18)
 
-* ⁉️ __Rust on GPU__ - future compute & ML programming models beyond shaders
+* 🏎 __Rust on GPU__ - future compute & ML programming models beyond shaders
 
 ## How
 

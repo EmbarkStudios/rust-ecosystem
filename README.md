@@ -1,8 +1,8 @@
-# Embark Rust Ecosystem
+# Embark Rust Ecosystem 🦀
 
 High-level tracking and discussions about improving Rust and the Rust ecosystem for game development at [Embark](http://embark-studios.com) and in general.
 
-Check out the __[Issues](https://github.com/EmbarkStudios/rust-ecosystem/issues)__ for active topics & discussions!
+Check out the __[Issues](https://github.com/EmbarkStudios/rust-ecosystem/issues)__ for active topics & discussions and [__`guidelines.md`__](guidelines.md) for our guidelines & policies for how we develop in Rust.
 
 ## Background
 
@@ -48,6 +48,6 @@ Open-source sponsorship
 
 Contracting work
 
-Oh and we are also [hiring](https://www.embark-studios.com/#jobs) for full-time positions in Stockholm and remote. 
+Oh and we are also [hiring](https://www.embark-studios.com/#jobs) for full-time positions in Stockholm and remote.
 
 Let's go! 🚀

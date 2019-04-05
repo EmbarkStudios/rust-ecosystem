@@ -1,6 +1,6 @@
 # Embark Rust development guidelines 🦀
 
-General guidelines and policies we use at [Embark](http://embark-studios.com) for our Rust projects.
+Guidelines and recommendations we use at [Embark](http://embark-studios.com) for developing our Rust projects.
 
 ## Guidelines
 

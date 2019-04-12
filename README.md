@@ -48,6 +48,8 @@ Open-source sponsorship
 
 Contracting work
 
+For potential collaborations, feel free to reach out to us at [`opensource@embark-studios.com`](opensource@embark-studios.com).
+
 Oh and we are also [hiring](https://www.embark-studios.com/#jobs) for full-time positions in Stockholm and remote.
 
 Let's go! 🚀

@@ -1,6 +1,6 @@
-# Embark Rust development guidelines
-
 [![Embark logo](media/embark-logo-bg.jpg)](http://embark.games)
+
+# Embark Rust development guidelines
 
 Guidelines and recommendations we use at [Embark](http://embark.games) for developing our [Rust 🦀](https://www.rust-lang.org/) projects.
 

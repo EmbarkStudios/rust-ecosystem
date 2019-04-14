@@ -1,6 +1,6 @@
-# Embark Rust Ecosystem
-
 [![Embark logo](media/embark-logo-bg.jpg)](http://embark.games)
+
+# Embark Rust Ecosystem
 
 High-level tracking and discussions about improving Rust and the Rust ecosystem for game development at [Embark](http://embark.games).
 

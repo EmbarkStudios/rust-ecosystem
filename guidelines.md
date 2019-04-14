@@ -34,7 +34,7 @@ let mutex = Mutex::new(1u32);
 *mutex.lock() += 2;
 ```
 
-TODO: Would be great to automatically verify this through something like a custom clippy lint, or even better: have the `parking_lot` primitives eventually find their way into std.
+__Todo:__ Would be great to automatically verify this through something like a custom clippy lint, or even better: have the `parking_lot` primitives eventually find their way into std.
 
 ### 003 - Opt-in for Clippy and Rust 2018 style warnings for every crate
 
@@ -47,7 +47,7 @@ Add this to the top of the main file (`lib.rs` or `bin.rs`) for all of our crate
 #![warn(rust_2018_idioms)]
 ```
 
-TODO: It would be nice if we could configure this globally for our workspace instead of for each crate which is more error prone.
+__Todo:__ Would be great if we could configure this globally for our workspace instead of for each crate (more error prone). [#22](https://github.com/EmbarkStudios/rust-ecosystem/issues/22).
 
 ## Development environments
 

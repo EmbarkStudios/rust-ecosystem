@@ -1,6 +1,6 @@
 # Embark Rust development guidelines 🦀
 
-Guidelines and recommendations we use at [Embark](http://embark-studios.com) for developing our Rust projects.
+Guidelines and recommendations we use at [Embark](http://embark.games) for developing our Rust projects.
 
 ## Guidelines
 

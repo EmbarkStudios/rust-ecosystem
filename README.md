@@ -1,8 +1,10 @@
-# Embark Rust Ecosystem 🦀
+# Embark Rust Ecosystem
 
-High-level tracking and discussions about improving Rust and the Rust ecosystem for game development at [Embark](http://embark.games) and in general.
+[![Embark logo](media/embark-logo-bg.jpg)](http://embark.games)
 
-Check out the __[Issues](https://github.com/EmbarkStudios/rust-ecosystem/issues)__ for active topics & discussions and [`guidelines.md`](guidelines.md) for our guidelines & policies for how we develop in Rust.
+High-level tracking and discussions about improving Rust and the Rust ecosystem for game development at [Embark](http://embark.games).
+
+Check out the __[Issues](https://github.com/EmbarkStudios/rust-ecosystem/issues)__ for active topics and [`guidelines.md`](guidelines.md) for our guidelines & policies for how we develop in [Rust 🦀](https://www.rust-lang.org/).
 
 ## Background
 

@@ -61,4 +61,4 @@ Let's go! 🚀
 Open source Rust crates we've created and are using/maintaining:
 
 * [`buildkite-jobify`](https://github.com/EmbarkStudios/buildkite-jobify) - Kubekite, but in Rust, using configuration from your repos
-* [`cargo-deny`](https://github.com/EmbarkStudios/cargo-deny) - Crate license whitelist and deny list tool
+* [`cargo-deny`](https://github.com/EmbarkStudios/cargo-deny) - Tool to maintaining your entire crate graph in large repositories

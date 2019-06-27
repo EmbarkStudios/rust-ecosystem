@@ -10,6 +10,14 @@ Check out the __[Issues](https://github.com/EmbarkStudios/rust-ecosystem/issues)
 
 TODO: Why we use Rust, what our hopes are with this. We belive this language and ecosystem is the future.
 
+## Crates
+
+Open source Rust crates we've created and are using/maintaining:
+
+* [`ash-molten`](https://github.com/EmbarkStudios/ash-molten.git) - Statically linked MoltenVK for Vulkan on Mac using Ash
+* [`buildkite-jobify`](https://github.com/EmbarkStudios/buildkite-jobify) - Kubekite, but in Rust, using configuration from your repos
+* [`cargo-deny`](https://github.com/EmbarkStudios/cargo-deny) - Tool to maintaining your entire crate graph in large repositories
+
 ## Areas
 
 Areas that we are working on, or interested in & want to help improve in/with Rust:
@@ -55,10 +63,3 @@ For potential collaborations, feel free to reach out to us at [`opensource@embar
 Oh and we are also [hiring](https://embark.games/careers/) for full-time positions in Stockholm and remote.
 
 Let's go! 🚀
-
-## Crates
-
-Open source Rust crates we've created and are using/maintaining:
-
-* [`buildkite-jobify`](https://github.com/EmbarkStudios/buildkite-jobify) - Kubekite, but in Rust, using configuration from your repos
-* [`cargo-deny`](https://github.com/EmbarkStudios/cargo-deny) - Tool to maintaining your entire crate graph in large repositories

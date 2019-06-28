@@ -14,9 +14,9 @@ TODO: Why we use Rust, what our hopes are with this. We belive this language and
 
 Open source Rust crates we've created and are using/maintaining:
 
-* [`ash-molten`](https://github.com/EmbarkStudios/ash-molten.git) - Statically linked MoltenVK for Vulkan on Mac using Ash
-* [`buildkite-jobify`](https://github.com/EmbarkStudios/buildkite-jobify) - Kubekite, but in Rust, using configuration from your repos
-* [`cargo-deny`](https://github.com/EmbarkStudios/cargo-deny) - Tool to maintaining your entire crate graph in large repositories
+* 🌋 [`ash-molten`](https://github.com/EmbarkStudios/ash-molten.git) - Statically linked MoltenVK for Vulkan on Mac using Ash
+* 👷 [`buildkite-jobify`](https://github.com/EmbarkStudios/buildkite-jobify) - Kubekite, but in Rust, using configuration from your repos
+* ❌ [`cargo-deny`](https://github.com/EmbarkStudios/cargo-deny) - Tool to maintaining your entire crate graph in large repositories
 
 ## Areas
 

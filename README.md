@@ -50,11 +50,11 @@ Build commmunity & ecosystems
 
 Partner with other companies & organizations
 
-Open-source sponsorship
+Open source sponsorships:
 
-* [Patreon](https://www.patreon.com/embarkstudios/creators)
+* Individual developers on [Patreon](https://www.patreon.com/embarkstudios/creators)
 
-* [Amethyst on OpenCollective](https://opencollective.com/embarkstudios)
+* [Amethyst](https://amethyst.rs/) and [rust-analyzer](https://github.com/rust-analyzer/rust-analyzer) on [OpenCollective](https://opencollective.com/embarkstudios)
 
 Contracting work
 

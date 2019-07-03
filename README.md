@@ -18,6 +18,7 @@ Open source Rust projects we've created and are using/maintaining:
 * 👷 [`buildkite-jobify`](https://github.com/EmbarkStudios/buildkite-jobify) - Kubekite, but in Rust, using configuration from your repos
 * ❌ [`cargo-deny`](https://github.com/EmbarkStudios/cargo-deny) - Tool to maintaining your entire crate graph in large repositories
 * 🎳 [`physx-rs`](https://github.com/EmbarkStudios/physx-rs) - Use [NVIDIA PhysX](https://github.com/NVIDIAGameWorks/PhysX) in Rust
+* 🔐 [`tame-oauth`](https://github.com/EmbarkStudios/tame-oauth) - Small OAuth crate that follows the sans-io approach
 
 ## Areas
 

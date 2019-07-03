@@ -1,6 +1,6 @@
-[![Embark logo](media/embark-logo-bg.jpg)](http://embark.games)
-
 # Embark Rust Ecosystem
+
+[![Embark logo](media/embark-logo-bg.jpg)](http://embark.games)
 
 High-level tracking and discussions about improving Rust and the Rust ecosystem for game development at [Embark](http://embark.games).
 
@@ -12,11 +12,12 @@ TODO: Why we use Rust, what our hopes are with this. We belive this language and
 
 ## Crates
 
-Open source Rust crates we've created and are using/maintaining:
+Open source Rust projects we've created and are using/maintaining:
 
 * 🌋 [`ash-molten`](https://github.com/EmbarkStudios/ash-molten.git) - Statically linked MoltenVK for Vulkan on Mac using Ash
 * 👷 [`buildkite-jobify`](https://github.com/EmbarkStudios/buildkite-jobify) - Kubekite, but in Rust, using configuration from your repos
 * ❌ [`cargo-deny`](https://github.com/EmbarkStudios/cargo-deny) - Tool to maintaining your entire crate graph in large repositories
+* 🎳 [`physx-rs`](https://github.com/EmbarkStudios/physx-rs) - Use [NVIDIA PhysX](https://github.com/NVIDIAGameWorks/PhysX) in Rust
 
 ## Areas
 

@@ -2,6 +2,8 @@
 
 [![Embark logo](media/embark-logo-bg.jpg)](http://embark.games)
 
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](code-of-conduct.md)
+
 High-level tracking and discussions about improving Rust and the Rust ecosystem for game development at [Embark](http://embark.games).
 
 Check out the __[Issues](https://github.com/EmbarkStudios/rust-ecosystem/issues)__ for active topics and [`guidelines.md`](guidelines.md) for our guidelines & policies for how we develop in [Rust 🦀](https://www.rust-lang.org/).

@@ -55,7 +55,7 @@ whatever CI a repo decides to use.
           tags: true
     ```
     You should get an crates.io API token from Johan for the `embark-studios` Github bot we have, but
-    a personal token can also work, as long as you are a member of the [ark-dev](https://github.com/orgs/EmbarkStudios/teams/ark-dev) team. Once you have the API token, you need to encrypt it, which you can do with [travis-cli](https://github.com/travis-ci/travis.rb#installation) tool `travis encrypt <token>`. Then just copy and paste the token
+    Once you have the API token, you need to encrypt it, which you can do with [travis-cli](https://github.com/travis-ci/travis.rb#installation) tool `travis encrypt <token>`. Then just copy and paste the token
     into the `<SEKRETZ>` placeholder.
     * If a bin project, copy what cargo-deny does, including all of the scripts. This will generate .tar.gz archives
     for all target platforms and upload them to Github releases so that people can install the binary without having

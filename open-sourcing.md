@@ -12,10 +12,10 @@ TODO: More steps here
 1. Do the usual repo creation under the [Embark](https://github.com/EmbarkStudios) org with the same name as the crate(s)
 1. Clone down the repo or else set it as the remote for an existing repo
 1. `cargo new` or `init` your repo if needed
-1. Do an initial publish of the crate, probably want to do a `cargo package` first to fixup any issues,
-normally this is stuff like missing the repository/docs/homepage etc metadata fields
-1. **IMPORTANT** Once it is published, run `cargo owner --add github:EmbarkStudios:ark-dev`, this adds the `ark-dev`
-team as an owner, so anyone in that group, including bot accounts, can publish new releases for the crate
+1. Do a `cargo package` and fixup any issues, normally this is stuff like missing the repository/docs/homepage etc metadata fields
+1. Do an initial publish of the crate with `cargo publish --token <TOKEN>` where `TOKEN` is
+and API token for the [`embark-studios`](https://crates.io/users/embark-studios) user. This shared
+bot account allows us to publish all crates under the same user and not have to worry about managing owners.
 
 ### Add CI
 

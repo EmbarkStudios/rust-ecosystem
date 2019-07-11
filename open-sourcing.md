@@ -67,5 +67,5 @@ whatever CI a repo decides to use.
 Given the above setup is followed correctly, publishing turns into a fairly trivial exercise.
 
 1. Change the `version` in Cargo.toml and commit
-1. Tag the commit `git tag -a <version> -m "Release <version>"` or something along those lines
+1. Tag the commit `git tag -a <version> -m "Release <version>"`. Example: `git tag -a 0.1.0 -m "Release 0.1.0"
 1. Push the commit(s) and tag so that the release will be published automatically `git push --follow-tags`

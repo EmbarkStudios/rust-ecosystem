@@ -22,7 +22,19 @@ bot account allows us to publish all crates under the same user and not have to 
 We mainly use Travis CI for all of our public code, but the general steps here would apply to
 whatever CI a repo decides to use.
 
-1. Create `.travis.yml` file, or copy one of our existing `.travis.yml` files, if a bin project, try [cargo-deny](https://github.com/EmbarkStudios/cargo-deny/blob/master/.travis.yml), if a lib project, try [tame-oauth](https://github.com/EmbarkStudios/tame-oauth/blob/master/.travis.yml), as well as the associated .ci/ scripts used.
+It's recommended you use our [Rust Template](https://github.com/EmbarkStudios/template-rust) when
+creating a new Rust Github repo, this already contains some basic CI templates and scripts to
+bootstrap your.
+
+If you don't use the Rust Template, you can copy one of our existing repos that most closely matches
+your new repo.
+
+* library crate - [tame-oauth](https://github.com/EmbarkStudios/tame-oauth/blob/master/.travis.yml)
+* binary crate - [cargo-deny](https://github.com/EmbarkStudios/cargo-deny/blob/master/.travis.yml)
+
+The rest of this guide assumes you are using the CI setup from the Rust Template.
+
+1. Rename `not.travis.yml` to `.travis.yml`. We don't actually run real CI on our template repo!
 1. Add/remove steps as makes sense for the project
     * As noted in our [guidelines](https://github.com/EmbarkStudios/rust-ecosystem/blob/master/guidelines.md#001---run-rustfmt-on-save), we expect all our code to follow default rustfmt, and not have clippy
     warnings, so have at least 1 lint step that checks these on the `stable` channel, and it's recommended

@@ -22,7 +22,7 @@ bot account allows us to publish all crates under the same user and not have to 
 We mainly use Travis CI for all of our public code, but the general steps here would apply to
 whatever CI a repo decides to use.
 
-1. Create .travis.yml file, or copy one of our existing .travis.yml files, if a bin project, try [cargo-deny](https://github.com/EmbarkStudios/cargo-deny/blob/master/.travis.yml), if a lib project, try [tame-oauth](https://github.com/EmbarkStudios/tame-oauth/blob/master/.travis.yml), as well as the associated .ci/ scripts used.
+1. Create `.travis.yml` file, or copy one of our existing `.travis.yml` files, if a bin project, try [cargo-deny](https://github.com/EmbarkStudios/cargo-deny/blob/master/.travis.yml), if a lib project, try [tame-oauth](https://github.com/EmbarkStudios/tame-oauth/blob/master/.travis.yml), as well as the associated .ci/ scripts used.
 1. Add/remove steps as makes sense for the project
     * As noted in our guidelines, we expect all our code to follow default rustfmt, and not have clippy
     warnings, so have at least 1 lint step that checks these on the `stable` channel, and it's recommended

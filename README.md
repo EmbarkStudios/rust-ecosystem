@@ -4,13 +4,13 @@
 
 High-level tracking and discussions about improving Rust and the Rust ecosystem for game development at [Embark](http://embark.games).
 
-Check out the __[Issues](https://github.com/EmbarkStudios/rust-ecosystem/issues)__ for active topics and [`guidelines.md`](guidelines.md) for our guidelines & policies for how we develop in [Rust 🦀](https://www.rust-lang.org/).
+Check out the __[Issues](https://github.com/EmbarkStudios/rust-ecosystem/issues)__ for active topics.
 
 ## Background
 
 TODO: Why we use Rust, what our hopes are with this. We belive this language and ecosystem is the future.
 
-## Crates
+## Open Source
 
 Open source Rust projects we've created and are using/maintaining:
 
@@ -20,7 +20,15 @@ Open source Rust projects we've created and are using/maintaining:
 * 🎳 [`physx-rs`](https://github.com/EmbarkStudios/physx-rs) - Use [NVIDIA PhysX](https://github.com/NVIDIAGameWorks/PhysX) in Rust
 * 🔐 [`tame-oauth`](https://github.com/EmbarkStudios/tame-oauth) - Small OAuth crate that follows the sans-io approach
 
-## Areas
+### Contributing
+
+We encourage contributions to any of our open source projects. If you're not sure where to start, look at the GitHub issues on any of the above projects!
+
+Check out [`guidelines.md`](guidelines.md) for our guidelines & policies for how we develop in Rust.
+
+To make sure we keep a friendly and safe environment for everyone, we have a Contributor Code of Conduct. You can read this in any of our projects' repositories. By contributing to our projects, you agree to the code of conduct.
+
+## Areas of Interest
 
 Areas that we are working on, or interested in & want to help improve in/with Rust:
 
@@ -42,6 +50,8 @@ Areas that we are working on, or interested in & want to help improve in/with Ru
 
 * 🏎 __Rust on GPU__ - future compute & ML programming models beyond shaders
 
+You can participate in active discussions about these topics and more through the __[Issues](https://github.com/EmbarkStudios/rust-ecosystem/issues)__ on this repository.
+
 ## How
 
 TODO:
@@ -52,16 +62,20 @@ Build commmunity & ecosystems
 
 Partner with other companies & organizations
 
-Open source sponsorships:
+Contracting work
+
+## Sponsorships
+
+We believe that open source creators are integral to the success of the Rust ecosystem. We offer monetary sponsorship to several individuals and projects via Patreon and OpenCollective. You can see who we're currently supporting below:
 
 * Individual developers on [Patreon](https://www.patreon.com/embarkstudios/creators)
 
 * [Amethyst](https://amethyst.rs/) and [rust-analyzer](https://github.com/rust-analyzer/rust-analyzer) on [OpenCollective](https://opencollective.com/embarkstudios)
 
-Contracting work
+## Work with us!
 
-For potential collaborations, feel free to reach out to us at [`opensource@embark-studios.com`](opensource@embark-studios.com).
+For potential collaborations, feel free to reach out to us at [`opensource@embark-studios.com`](mailto:opensource@embark-studios.com).
 
-Oh and we are also [hiring](https://embark.games/careers/) for full-time positions in Stockholm and remote.
+We are also [hiring](https://embark.games/careers/) for full-time positions in Stockholm!
 
 Let's go! 🚀

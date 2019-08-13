@@ -8,7 +8,12 @@ Check out the __[Issues](https://github.com/EmbarkStudios/rust-ecosystem/issues)
 
 ## Background
 
-TODO: Why we use Rust, what our hopes are with this. We belive this language and ecosystem is the future.
+TODO @REPI:
+- background on choosing rust
+- why we like the ecosystem
+- why we believe it's the future
+
+We believe that by openly sharing our work with the community, we create opportunities for discussion and collaboration which can bring us toward a great future for Rust and for gamemaking.
 
 ## Open Source
 
@@ -55,18 +60,6 @@ Areas that we are working on, or interested in & want to help improve in/with Ru
 * 🏎 __Rust on GPU__ - future compute & ML programming models beyond shaders
 
 You can participate in active discussions about these topics and more through the __[Issues](https://github.com/EmbarkStudios/rust-ecosystem/issues)__ on this repository.
-
-## How
-
-TODO:
-
-Visbility / transparency
-
-Build commmunity & ecosystems
-
-Partner with other companies & organizations
-
-Contracting work
 
 ## Sponsorships
 

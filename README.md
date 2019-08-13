@@ -38,9 +38,7 @@ Areas that we are working on, or interested in & want to help improve in/with Ru
 
 * 🕹️ __[Game engine systems](http://arewegameyet.com/)__ - multiplayer, rendering, physics, audio, server, assets, workflows
 
-* 📦 __Developer experience__ - fast iteration with large projects/monorepos, debugging, profiling, IDE, tools
-
-* 🍃 __[Bazel](https://bazel.build/)__ - distributed & unified multi-ecosystem build system. [#19](https://github.com/EmbarkStudios/rust-ecosystem/issues/19)
+* 📦 __Developer experience__ - fast iteration with large projects/monorepos, distributed builds, debugging, profiling, IDE
 
 * 🛸 __[WebAssembly](https://webassembly.org/) and [WASI](https://hacks.mozilla.org/2019/03/standardizing-wasi-a-webassembly-system-interface/)__ - sandboxed safe Rust code on client, edge & cloud
 

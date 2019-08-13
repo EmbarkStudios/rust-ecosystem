@@ -78,7 +78,7 @@ We believe that open source creators are integral to the success of the Rust eco
 
 ## Work with us!
 
-For potential collaborations, feel free to reach out to us at [`opensource@embark-studios.com`](mailto:opensource@embark-studios.com).
+We're actively looking to collaborate with developers on the areas discussed in this repository. If you're interested in working on a specific issue or idea highlighted here, please reach out to us at [`opensource@embark-studios.com`](mailto:opensource@embark-studios.com) to discuss contracting opportunities or sponsorship.
 
 We are also [hiring](https://embark.games/careers/) for full-time positions in Stockholm!
 

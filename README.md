@@ -20,6 +20,8 @@ Open source Rust projects we've created and are using/maintaining:
 * 🎳 [`physx-rs`](https://github.com/EmbarkStudios/physx-rs) - Use [NVIDIA PhysX](https://github.com/NVIDIAGameWorks/PhysX) in Rust
 * 🔐 [`tame-oauth`](https://github.com/EmbarkStudios/tame-oauth) - Small OAuth crate that follows the sans-io approach
 
+Also see the crates on [crates.io](https://crates.io/users/embark-studios).
+
 ### Contributing
 
 We encourage contributions to any of our open source projects. If you're not sure where to start, look at the GitHub issues on any of the above projects!

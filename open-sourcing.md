@@ -1,10 +1,8 @@
 # Open Sourcing
 
-TODO: More sections and beautiful prose
+How we create and release new open source projects at Embark.
 
 ## Release Steps
-
-TODO: More steps here
 
 ### Setup New Repo
 

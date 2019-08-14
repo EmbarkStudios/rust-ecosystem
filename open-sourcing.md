@@ -44,13 +44,16 @@ The rest of this guide assumes you are using the CI setup from the Rust Template
     linux machines than the other platforms, particularly Windows
 1. Add a deploy step
     * Add a separate deploy stage that only runs on semver tags
+
     ```yml
     stages:
     - test
     - name: deploy
       if: tag =~ /^\d+\.\d+\.\d+.*$/
     ```
+
     * If a lib/bin project, add a deploy step for publishing to crates.io
+
     ```yml
     - stage: deploy
       rust: stable
@@ -64,6 +67,7 @@ The rest of this guide assumes you are using the CI setup from the Rust Template
           repo: EmbarkStudios/your-repo-name
           tags: true
     ```
+
     You should get an crates.io API token from Johan for the `embark-studios` Github bot we have, but
     Once you have the API token, you need to encrypt it, which you can do with [travis-cli](https://github.com/travis-ci/travis.rb#installation) tool `travis encrypt <token>`. Then just copy and paste the token
     into the `<SEKRETZ>` placeholder.
@@ -77,5 +81,5 @@ The rest of this guide assumes you are using the CI setup from the Rust Template
 Given the above setup is followed correctly, publishing turns into a fairly trivial exercise.
 
 1. Change the `version` in Cargo.toml and commit
-1. Tag the commit `git tag -a <version> -m "Release <version>"`. Example: `git tag -a 0.1.0 -m "Release 0.1.0"
+1. Tag the commit `git tag -a <version> -m "Release <version>"`. Example: `git tag -a 0.1.0 -m "Release 0.1.0"`
 1. Push the commit(s) and tag so that the release will be published automatically `git push --follow-tags`

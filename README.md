@@ -2,22 +2,23 @@
 
 [![Embark logo](media/embark-logo-bg.jpg)](http://embark.games)
 
-High-level tracking and discussions about improving Rust and the Rust ecosystem for game development at [Embark](http://embark.games).
+High-level tracking and discussions about improving Rust and the Rust ecosystem for our game development use cases at [Embark](http://embark.games).
 
 Check out the __[Issues](https://github.com/EmbarkStudios/rust-ecosystem/issues)__ for active topics.
 
 ## Background
 
-TODO @REPI:
-- background on choosing rust
-- why we like the ecosystem
-- why we believe it's the future
+When we started Embark we choose Rust as our primary language for the long term future we are building. We love the safety and robustness of the language, the ability to write high performance, safe, and (mostly) bug free code and then fearlessly refactor and change it without common lifetime/ownership, memory safety or race condition problems.
 
-We believe that by openly sharing our work with the community, we create opportunities for discussion and collaboration which can bring us toward a great future for Rust and for gamemaking.
+That combined with the openness and collaborative nature of the quickly growing ecosystem of and around Rust with crates.io and the tens of thousands of open source crates with a best-in-class package system, [cargo](https://doc.rust-lang.org/cargo/), truly makes Rust [a language for the next 40 years](https://www.youtube.com/watch?v=A3AdN7U24iU).
+
+We believe that by openly sharing our work, issues, and ideas with the community, we'll create more opportunities for collaboration and discussion to bring us toward a great future for Rust and for the games industry in general.
+
+-- Johan Andersson ([`@repi`](http://twitter.com/repi)), CTO, Embark
 
 ## Open Source
 
-Open source Rust projects we've created and are using/maintaining:
+Open source Rust projects we've created so far and are actively using and maintaining:
 
 Name | Description | Crates.io
 --- | --- | ---
@@ -41,7 +42,7 @@ To make sure we keep a friendly and safe environment for everyone, we have a Con
 
 ## Areas of Interest
 
-Areas that we are working on, or interested in & want to help improve in/with Rust:
+Areas that we are interested in or working on, and want to help improve in Rust:
 
 * ☸ __[Distributed systems](https://areweasyncyet.rs/)__ - [async](https://rust-lang.github.io/async-book/), [tokio](https://tokio.rs/), [tower-grpc](https://github.com/tower-rs/tower-grpc)
 

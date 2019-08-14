@@ -2,17 +2,23 @@
 
 [![Embark logo](media/embark-logo-bg.jpg)](http://embark.games)
 
-High-level tracking and discussions about improving Rust and the Rust ecosystem for game development at [Embark](http://embark.games).
+High-level tracking and discussions about improving Rust and the Rust ecosystem for our game development use cases at [Embark](http://embark.games).
 
 Check out the __[Issues](https://github.com/EmbarkStudios/rust-ecosystem/issues)__ for active topics.
 
 ## Background
 
-TODO: Why we use Rust, what our hopes are with this. We belive this language and ecosystem is the future.
+When we started Embark we choose Rust as our primary language for the long term future we are building. We love the safety and robustness of the language, the ability to write high performance, safe, and (mostly) bug free code and then fearlessly refactor and change it without common lifetime/ownership, memory safety or race condition problems.
+
+That combined with the openness and collaborative nature of the quickly growing ecosystem of and around Rust with crates.io and the tens of thousands of open source crates with a best-in-class package system, [cargo](https://doc.rust-lang.org/cargo/), truly makes Rust [a language for the next 40 years](https://www.youtube.com/watch?v=A3AdN7U24iU).
+
+We believe that by openly sharing our work, issues, and ideas with the community, we'll create more opportunities for collaboration and discussion to bring us toward a great future for Rust and for the games industry in general.
+
+-- Johan Andersson ([`@repi`](http://twitter.com/repi)), CTO, Embark
 
 ## Open Source
 
-Open source Rust projects we've created and are using/maintaining:
+Open source Rust projects we've created so far and are actively using and maintaining:
 
 Name | Description | Crates.io
 --- | --- | ---
@@ -36,7 +42,7 @@ To make sure we keep a friendly and safe environment for everyone, we have a Con
 
 ## Areas of Interest
 
-Areas that we are working on, or interested in & want to help improve in/with Rust:
+Areas that we are interested in or working on, and want to help improve in Rust:
 
 * ☸ __[Distributed systems](https://areweasyncyet.rs/)__ - [async](https://rust-lang.github.io/async-book/), [tokio](https://tokio.rs/), [tower-grpc](https://github.com/tower-rs/tower-grpc)
 
@@ -56,18 +62,6 @@ Areas that we are working on, or interested in & want to help improve in/with Ru
 
 You can participate in active discussions about these topics and more through the __[Issues](https://github.com/EmbarkStudios/rust-ecosystem/issues)__ on this repository.
 
-## How
-
-TODO:
-
-Visbility / transparency
-
-Build commmunity & ecosystems
-
-Partner with other companies & organizations
-
-Contracting work
-
 ## Sponsorships
 
 We believe that open source creators are integral to the success of the Rust ecosystem. We offer monetary sponsorship to several individuals and projects via Patreon and OpenCollective. You can see who we're currently supporting below:
@@ -78,7 +72,7 @@ We believe that open source creators are integral to the success of the Rust eco
 
 ## Work with us!
 
-For potential collaborations, feel free to reach out to us at [`opensource@embark-studios.com`](mailto:opensource@embark-studios.com).
+We're actively looking to collaborate with developers on the areas discussed in this repository. If you're interested in working on a specific issue or idea highlighted here, please reach out to us at [`opensource@embark-studios.com`](mailto:opensource@embark-studios.com) to discuss contracting opportunities or sponsorship.
 
 We are also [hiring](https://embark.games/careers/) for full-time positions in Stockholm!
 

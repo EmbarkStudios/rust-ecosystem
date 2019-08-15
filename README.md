@@ -42,7 +42,7 @@ To make sure we keep a friendly and safe environment for everyone, we have a Con
 
 ## Areas of Interest
 
-Areas that we are interested in or working on, and want to help improve in Rust:
+Areas that we are interested in or working on, and want to help see improved in Rust:
 
 * ☸ __[Distributed systems](https://areweasyncyet.rs/)__ - [async](https://rust-lang.github.io/async-book/), [tokio](https://tokio.rs/), [tower-grpc](https://github.com/tower-rs/tower-grpc)
 
@@ -60,7 +60,9 @@ Areas that we are interested in or working on, and want to help improve in Rust:
 
 * 🏎 __Rust on GPU__ - future compute & ML programming models beyond shaders
 
-You can participate in active discussions about these topics and more through the __[Issues](https://github.com/EmbarkStudios/rust-ecosystem/issues)__ on this repository.
+We track and discuss these from our perspective in the __[Issues](https://github.com/EmbarkStudios/rust-ecosystem/issues)__ for visibility and to get feedback, feel free to join in if you have ideas!
+
+Also check out the [Rust Game Development Working Group](https://github.com/rust-gamedev/wg).
 
 ## Sponsorships
 

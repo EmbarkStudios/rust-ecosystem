@@ -1,0 +1,27 @@
+[submodule "projects/ash-molten"]
+	path = projects/ash-molten
+	url = https://github.com/EmbarkStudios/ash-molten.git
+[submodule "projects/buildkite-jobify"]
+	path = projects/buildkite-jobify
+	url = https://github.com/EmbarkStudios/buildkite-jobify.git
+[submodule "projects/cargo-deny"]
+	path = projects/cargo-deny
+	url = https://github.com/EmbarkStudios/cargo-deny.git
+[submodule "projects/cargo-fetcher"]
+	path = projects/cargo-fetcher
+	url = https://github.com/EmbarkStudios/cargo-fetcher.git
+[submodule "projects/physx-rs"]
+	path = projects/physx-rs
+	url = https://github.com/EmbarkStudios/physx-rs.git
+[submodule "projects/spdx"]
+	path = projects/spdx
+	url = https://github.com/EmbarkStudios/spdx.git
+[submodule "projects/tame-gcs"]
+	path = projects/tame-gcs
+	url = https://github.com/EmbarkStudios/tame-gcs.git
+[submodule "projects/tame-oauth"]
+	path = projects/tame-oauth
+	url = https://github.com/EmbarkStudios/tame-oauth.git
+[submodule "projects/texture-synthesis"]
+	path = projects/texture-synthesis
+	url = https://github.com/EmbarkStudios/texture-synthesis.git

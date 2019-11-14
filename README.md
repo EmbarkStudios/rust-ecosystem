@@ -47,7 +47,7 @@ To make sure we keep a friendly and safe environment for everyone, we have a Con
 
 Areas that we are interested in or working on, and want to help see improved in Rust:
 
-* ☸ __[Distributed systems](https://areweasyncyet.rs/)__ - [async](https://rust-lang.github.io/async-book/), [tokio](https://tokio.rs/), [tower-grpc](https://github.com/tower-rs/tower-grpc)
+* ☸ __[Distributed systems](https://areweasyncyet.rs/)__ - [async](https://rust-lang.github.io/async-book/), [tokio](https://tokio.rs/), [tonic](https://github.com/hyperium/tonic)
 
 * 🕹️ __[Game engine systems](http://arewegameyet.com/)__ - multiplayer, rendering, physics, audio, server, assets, workflows
 

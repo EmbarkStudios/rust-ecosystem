@@ -34,7 +34,7 @@ The rest of this guide assumes you are using the CI setup from the Open Source T
 
 1. Rename `rust.travis.yml` to `.travis.yml`. We don't actually run real CI on our template repo!
 1. Add/remove steps as makes sense for the project
-    * As noted in our [guidelines](https://github.com/EmbarkStudios/rust-ecosystem/blob/master/guidelines.md#001---run-rustfmt-on-save), we expect all our code to follow default rustfmt, and not have clippy
+    * As noted in our [guidelines](https://github.com/EmbarkStudios/rust-ecosystem/blob/main/guidelines.md#001---run-rustfmt-on-save), we expect all our code to follow default rustfmt, and not have clippy
     warnings, so have at least 1 lint step that checks these on the `stable` channel, and it's recommended
     to have one that does the same thing on the `beta` channel as well as new clippy lints can trigger failures
     in the next `stable` release

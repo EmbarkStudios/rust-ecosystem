@@ -14,6 +14,7 @@ How we create and release new open source projects at Embark.
 1. Do an initial publish of the crate with `cargo publish --token <TOKEN>` where `TOKEN` is
 and API token for the [`embark-studios`](https://crates.io/users/embark-studios) user. This shared
 bot account allows us to publish all crates under the same user and not have to worry about managing owners.
+1. Add [Mergify](https://mergify.io) access to repo to enable automatic merging of PRs (after they pass tests & reviews). [Settings link](https://github.com/organizations/EmbarkStudios/settings/installations/1929397)
 
 ### Add CI
 

@@ -78,7 +78,7 @@ We believe that open source creators are integral to the success of the Rust eco
 You can see who we're currently supporting below:
 
 * Individual developers on [GitHub Sponsors](https://github.com/embark-studios) and [Patreon](https://www.patreon.com/embarkstudios/creators)
-* Projects on [OpenCollective](https://opencollective.com/embarkstudios) - [Amethyst](https://amethyst.rs/), [rust-analyzer](https://github.com/rust-analyzer/rust-analyzer), [Clap](https://clap.rs), [Gtk-rs](https://gtk-rs.org/)
+* Projects on [OpenCollective](https://opencollective.com/embarkstudios) - [Amethyst](https://amethyst.rs/), [rust-analyzer](https://github.com/rust-analyzer/rust-analyzer), [Clap](https://clap.rs), [Gtk-rs](https://gtk-rs.org/), [headcrab](https://headcrab.rs/)
 
 ## Work with us!
 

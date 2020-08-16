@@ -73,11 +73,12 @@ Also check out the [Rust Game Development Working Group](https://github.com/rust
 
 ## Sponsorships
 
-We believe that open source creators are integral to the success of the Rust ecosystem. We offer monetary sponsorship to several individuals and projects via Patreon, GitHub and OpenCollective. You can see who we're currently supporting below:
+We believe that open source creators are integral to the success of the Rust ecosystem. We offer monetary sponsorship to several individuals and projects via Patreon, GitHub and OpenCollective.
 
-* Individual developers on [Patreon](https://www.patreon.com/embarkstudios/creators) and [GitHub Sponsors](https://github.com/embark-studios)
+You can see who we're currently supporting below:
 
-* [Amethyst](https://amethyst.rs/) and [rust-analyzer](https://github.com/rust-analyzer/rust-analyzer) on [OpenCollective](https://opencollective.com/embarkstudios)
+* Individual developers on [GitHub Sponsors](https://github.com/embark-studios) and [Patreon](https://www.patreon.com/embarkstudios/creators)
+* Projects on [OpenCollective](https://opencollective.com/embarkstudios) - [Amethyst](https://amethyst.rs/), [rust-analyzer](https://github.com/rust-analyzer/rust-analyzer), [Clap](https://clap.rs), [Gtk-rs](https://gtk-rs.org/)
 
 ## Work with us!
 

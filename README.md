@@ -75,10 +75,17 @@ Also check out the [Rust Game Development Working Group](https://github.com/rust
 
 We believe that open source creators are integral to the success of the Rust ecosystem. We offer monetary sponsorship to several individuals and projects via Patreon, GitHub and OpenCollective.
 
-You can see who we're currently supporting below:
+Projects we are currently sponsoring:
 
-* Individual developers on [GitHub Sponsors](https://github.com/embark-studios) and [Patreon](https://www.patreon.com/embarkstudios/creators)
-* Projects on [OpenCollective](https://opencollective.com/embarkstudios) - [Amethyst](https://amethyst.rs/), [rust-analyzer](https://github.com/rust-analyzer/rust-analyzer), [Clap](https://clap.rs), [Gtk-rs](https://gtk-rs.org/), [headcrab](https://headcrab.rs/)
+* __[Amethyst](https://amethyst.rs/)__ - _"Data-driven game engine written in Rust"_
+* __[Bevy](https://bevyengine.org/)__ - _"A refreshingly simple data-driven game engine built in Rust"_
+* __[rust-analyzer](https://github.com/rust-analyzer/rust-analyzer)__ - _"Bringing a great IDE experience
+to the Rust programming language"_
+* __[Clap](https://clap.rs)__ - _"Fast. Configurable. Argument Parsing for Rust"_
+* __[Gtk-rs](https://gtk-rs.org/)__ - _"Rust bindings for GTK+ 3, Cairo, GtkSourceView and other GLib-compatible libraries"_
+* __[headcrab](https://headcrab.rs/)__ - _"A modern Rust debugger library"_
+
+Full list of projects and individual developers we are sponsoring: [OpenCollective](https://opencollective.com/embarkstudios), [GitHub Sponsors](https://github.com/embark-studios) and [Patreon](https://www.patreon.com/embarkstudios/creators).
 
 ## Work with us!
 

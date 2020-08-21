@@ -63,7 +63,7 @@ Areas that we are interested in or working on, and want to help see improved in 
 
 * 🚀 __High performance runtime__ - CPU job scheduling, code generation, optimizing crates
 
-* 📺📱 __Console & mobile platform support__ - PlayStation, Xbox, future hw. iOS & Android. [#18](https://github.com/EmbarkStudios/rust-ecosystem/issues/18)
+* 📺📱 __Console & mobile platform support__ - PlayStation, Xbox, Android. [#18](https://github.com/EmbarkStudios/rust-ecosystem/issues/18)
 
 * 🏎 __Rust on GPU__ - future compute & ML programming models beyond shaders
 

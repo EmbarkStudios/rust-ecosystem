@@ -73,7 +73,7 @@ Also check out the [Rust Game Development Working Group](https://github.com/rust
 
 ## Sponsorships
 
-We believe that open source creators are integral to the success of the Rust ecosystem. We offer monetary sponsorship to several individuals and projects via Patreon, GitHub and OpenCollective.
+We believe that open source creators are integral to the success of the Rust ecosystem, as well as our own success. We offer monetary sponsorship to several individuals and projects via Patreon, GitHub and OpenCollective.
 
 Projects we are currently sponsoring:
 

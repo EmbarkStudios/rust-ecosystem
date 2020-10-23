@@ -31,6 +31,7 @@ Name | Description | Crates.io
 🎳 [`physx`](https://github.com/EmbarkStudios/physx-rs) | Use [NVIDIA PhysX](https://github.com/NVIDIAGameWorks/PhysX) in Rust | [![Latest version](https://img.shields.io/crates/v/physx.svg)](https://crates.io/crates/physx)
 🐦 [`puffin`](https://github.com/EmbarkStudios/puffin) | Simple instrumentation profiler for Rust | [![Latest version](https://img.shields.io/crates/v/puffin.svg)](https://crates.io/crates/puffin)
 🐏 [`rpmalloc-rs`](https://github.com/EmbarkStudios/rpmalloc-rs) | Cross-platform Rust global memory allocator using [rpmalloc](https://github.com/rampantpixels/rpmalloc) | [![Latest version](https://img.shields.io/crates/v/rpmalloc.svg)](https://crates.io/crates/rpmalloc)
+🐉 [`rust-gpu`](https://github.com/EmbarkStudios/rust-gpu) |  Making Rust a first-class language & ecosystem for GPU code |
 🆔 [`spdx`](https://github.com/EmbarkStudios/spdx) | Helper crate for SPDX expressions | [![Latest version](https://img.shields.io/crates/v/spdx.svg)](https://crates.io/crates/spdx)
 🔆 [`superluminal-perf`](https://github.com/EmbarkStudios/superluminal-perf-rs) | [Superluminal Performance](http://superluminal.eu) profiler integration | [![Latest version](https://img.shields.io/crates/v/superluminal-perf.svg)](https://crates.io/crates/superluminal-perf)
 📂 [`tame-gcs`](https://github.com/EmbarkStudios/tame-gcs) | Google Cloud Storage functions that follows the sans-io approach | [![Latest version](https://img.shields.io/crates/v/tame-gcs.svg)](https://crates.io/crates/tame-gcs)
@@ -65,7 +66,7 @@ Areas that we are interested in or working on, and want to help see improved in 
 
 * 📺📱 __Console & mobile platform support__ - PlayStation, Xbox, Android. [#18](https://github.com/EmbarkStudios/rust-ecosystem/issues/18)
 
-* 🏎 __Rust on GPU__ - future compute & ML programming models beyond shaders
+* 🏎 [__Rust on GPU__](https://shader.rs) - future compute & ML programming models beyond shaders, https://shader.rs
 
 We track and discuss these from our perspective in the __[Issues](https://github.com/EmbarkStudios/rust-ecosystem/issues)__ for visibility and to get feedback, feel free to join in if you have ideas!
 

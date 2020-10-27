@@ -85,6 +85,7 @@ to the Rust programming language"_
 * __[Clap](https://clap.rs)__ - _"Fast. Configurable. Argument Parsing for Rust"_
 * __[Gtk-rs](https://gtk-rs.org/)__ - _"Rust bindings for GTK+ 3, Cairo, GtkSourceView and other GLib-compatible libraries"_
 * __[headcrab](https://headcrab.rs/)__ - _"A modern Rust debugger library"_
+* __[knurling-rs](https://knurling.ferrous-systems.com/)__ - _"Improving the tools and material used to build, debug, and learn embedded systems"_
 
 Full list of projects and individual developers we are sponsoring: [OpenCollective](https://opencollective.com/embarkstudios), [GitHub Sponsors](https://github.com/embark-studios) and [Patreon](https://www.patreon.com/embarkstudios/creators).
 

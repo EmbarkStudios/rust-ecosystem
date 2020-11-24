@@ -37,6 +37,7 @@ Name | Description | Crates.io
 📂 [`tame-gcs`](https://github.com/EmbarkStudios/tame-gcs) | Google Cloud Storage functions that follows the sans-io approach | [![Latest version](https://img.shields.io/crates/v/tame-gcs.svg)](https://crates.io/crates/tame-gcs)
 🔐 [`tame-oauth`](https://github.com/EmbarkStudios/tame-oauth) | Small OAuth crate that follows the sans-io approach | [![Latest version](https://img.shields.io/crates/v/tame-oauth.svg)](https://crates.io/crates/tame-oauth)
 🎨 [`texture-synthesis`](https://github.com/EmbarkStudios/texture-synthesis) | Example-based texture synthesis generator and CLI example | [![Latest version](https://img.shields.io/crates/v/texture-synthesis.svg)](https://crates.io/crates/texture-synthesis)
+💫 [`tryhard`](https://github.com/EmbarkStudios/tryhard) | Easily retry futures | [![Latest version](https://img.shields.io/crates/v/tryhard.svg)](https://crates.io/crates/tryhard)
 
 You can see all these crates on our [crates.io profile](https://crates.io/users/embark-studios).
 

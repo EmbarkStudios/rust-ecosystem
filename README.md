@@ -81,6 +81,7 @@ Projects we are currently sponsoring:
 
 * __[Amethyst](https://amethyst.rs/)__ - _"Data-driven game engine written in Rust"_
 * __[Bevy](https://bevyengine.org/)__ - _"A refreshingly simple data-driven game engine built in Rust"_
+* __[Dimforge](https://www.dimforge.com/)__ - _"Open-Source Rust crates for numerical simulation"_
 * __[rust-analyzer](https://github.com/rust-analyzer/rust-analyzer)__ - _"Bringing a great IDE experience
 to the Rust programming language"_
 * __[Clap](https://clap.rs)__ - _"Fast. Configurable. Argument Parsing for Rust"_

@@ -29,8 +29,10 @@ Name | Description | Crates.io
 🎁 [`cargo-fetcher`](https://github.com/EmbarkStudios/cargo-fetcher) | `cargo fetch` alternative for use in CI or other "clean" environments | [![Latest version](https://img.shields.io/crates/v/cargo-fetcher.svg)](https://crates.io/crates/cargo-fetcher)
 ⚙️ [`cfg-expr`](https://github.com/EmbarkStudios/cfg-expr) | A parser and evaluator for Rust `cfg()` expressions | [![Latest version](https://img.shields.io/crates/v/cfg-expr.svg)](https://crates.io/crates/cfg-expr)
 📦 [`krates`](https://github.com/EmbarkStudios/krates) | Creates graphs of crates from cargo metadata | [![Latest version](https://img.shields.io/crates/v/krates.svg)](https://crates.io/crates/krates)
+🆙 [`octobors`](https://github.com/EmbarkStudios/octobors) | GitHub action for automerging PRs based on a few rules
 🎳 [`physx`](https://github.com/EmbarkStudios/physx-rs) | Use [NVIDIA PhysX](https://github.com/NVIDIAGameWorks/PhysX) in Rust | [![Latest version](https://img.shields.io/crates/v/physx.svg)](https://crates.io/crates/physx)
 🐦 [`puffin`](https://github.com/EmbarkStudios/puffin) | Simple instrumentation profiler for Rust | [![Latest version](https://img.shields.io/crates/v/puffin.svg)](https://crates.io/crates/puffin)
+📓 [`relnotes`](https://github.com/EmbarkStudios/relnotes) | Automatic GitHub release notes | [![Latest version](https://img.shields.io/crates/v/relnotes.svg)](https://crates.io/crates/relnotes)
 🐏 [`rpmalloc-rs`](https://github.com/EmbarkStudios/rpmalloc-rs) | Cross-platform Rust global memory allocator using [rpmalloc](https://github.com/rampantpixels/rpmalloc) | [![Latest version](https://img.shields.io/crates/v/rpmalloc.svg)](https://crates.io/crates/rpmalloc)
 🐉 [`rust-gpu`](https://github.com/EmbarkStudios/rust-gpu) |  Making Rust a first-class language & ecosystem for GPU code |
 🆔 [`spdx`](https://github.com/EmbarkStudios/spdx) | Helper crate for SPDX expressions | [![Latest version](https://img.shields.io/crates/v/spdx.svg)](https://crates.io/crates/spdx)

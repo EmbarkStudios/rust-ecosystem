@@ -1,4 +1,4 @@
-// BEGIN - Embark standard lints v0.2
+// BEGIN - Embark standard lints v0.3
 // do not change or add/remove here, but one can add exceptions after this section
 // for more info see: <https://github.com/EmbarkStudios/rust-ecosystem/issues/59>
 #![deny(unsafe_code)]
@@ -21,6 +21,7 @@
     clippy::linkedlist,
     clippy::lossy_float_literal,
     clippy::macro_use_imports,
+    clippy::map_err_ignore,
     clippy::map_flatten,
     clippy::map_unwrap_or,
     clippy::match_on_vec_items,
@@ -43,6 +44,6 @@
     nonstandard_style,
     rust_2018_idioms
 )]
-// END - Embark standard lints v0.2
+// END - Embark standard lints v0.3
 // crate-specific exceptions:
 #![allow()]

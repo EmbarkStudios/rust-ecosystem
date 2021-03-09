@@ -26,6 +26,7 @@
     clippy::map_flatten,
     clippy::map_unwrap_or,
     clippy::match_on_vec_items,
+    clippy::match_same_arms,
     clippy::match_wildcard_for_single_variants,
     clippy::mem_forget,
     clippy::mismatched_target_os,

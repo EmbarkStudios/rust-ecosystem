@@ -42,6 +42,7 @@
     clippy::string_to_string,
     clippy::suboptimal_flops,
     clippy::todo,
+    clippy::unimplemented,
     clippy::unnested_or_patterns,
     clippy::unused_self,
     clippy::verbose_file_reads,

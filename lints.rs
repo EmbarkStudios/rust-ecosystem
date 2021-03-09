@@ -32,6 +32,7 @@
     clippy::mismatched_target_os,
     clippy::needless_borrow,
     clippy::needless_continue,
+    clippy::needless_pass_by_value,
     clippy::option_option,
     clippy::pub_enum_variant_names,
     clippy::ref_option_ref,

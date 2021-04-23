@@ -1,10 +1,12 @@
 // BEGIN - Embark standard lints v0.3
 // do not change or add/remove here, but one can add exceptions after this section
 // for more info see: <https://github.com/EmbarkStudios/rust-ecosystem/issues/59>
-#![deny(broken_intra_doc_links)]
-#![deny(invalid_codeblock_attributes)]
-#![deny(private_intra_doc_links)]
-#![deny(unsafe_code)]
+#![deny(
+    broken_intra_doc_links,
+    invalid_codeblock_attributes,
+    private_intra_doc_links,
+    unsafe_code,
+)]
 #![warn(
     clippy::all,
     clippy::await_holding_lock,

@@ -52,7 +52,6 @@
     clippy::string_add,
     clippy::string_lit_as_bytes,
     clippy::string_to_string,
-    clippy::suboptimal_flops,
     clippy::todo,
     clippy::trait_duplication_in_bounds,
     clippy::unimplemented,

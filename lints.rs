@@ -1,7 +1,12 @@
 // BEGIN - Embark standard lints v0.3
 // do not change or add/remove here, but one can add exceptions after this section
 // for more info see: <https://github.com/EmbarkStudios/rust-ecosystem/issues/59>
-#![deny(unsafe_code)]
+#![deny(
+    broken_intra_doc_links,
+    invalid_codeblock_attributes,
+    private_intra_doc_links,
+    unsafe_code,
+)]
 #![warn(
     clippy::all,
     clippy::await_holding_lock,
@@ -36,7 +41,7 @@
     clippy::pub_enum_variant_names,
     clippy::ref_option_ref,
     clippy::rest_pat_in_fully_bound_structs,
-    clippy::string_add_assign,    
+    clippy::string_add_assign,
     clippy::string_add,
     clippy::string_to_string,
     clippy::suboptimal_flops,

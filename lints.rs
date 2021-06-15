@@ -1,4 +1,4 @@
-// BEGIN - Embark standard lints v0.3
+// BEGIN - Embark standard lints v0.4
 // do not change or add/remove here, but one can add exceptions after this section
 // for more info see: <https://github.com/EmbarkStudios/rust-ecosystem/issues/59>
 #![deny(unsafe_code)]
@@ -33,10 +33,9 @@
     clippy::needless_borrow,
     clippy::needless_continue,
     clippy::option_option,
-    clippy::pub_enum_variant_names,
     clippy::ref_option_ref,
     clippy::rest_pat_in_fully_bound_structs,
-    clippy::string_add_assign,    
+    clippy::string_add_assign,
     clippy::string_add,
     clippy::string_to_string,
     clippy::suboptimal_flops,

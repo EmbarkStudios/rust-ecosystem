@@ -28,7 +28,7 @@ Name | Description | Crates.io
 ❌ [`cargo-deny`](https://github.com/EmbarkStudios/cargo-deny) | Cargo plugin to help you manage large dependency graphs | [![Latest version](https://img.shields.io/crates/v/cargo-deny.svg)](https://crates.io/crates/cargo-deny)
 🎁 [`cargo-fetcher`](https://github.com/EmbarkStudios/cargo-fetcher) | `cargo fetch` alternative for use in CI or other "clean" environments | [![Latest version](https://img.shields.io/crates/v/cargo-fetcher.svg)](https://crates.io/crates/cargo-fetcher)
 ⚙️ [`cfg-expr`](https://github.com/EmbarkStudios/cfg-expr) | A parser and evaluator for Rust `cfg()` expressions | [![Latest version](https://img.shields.io/crates/v/cfg-expr.svg)](https://crates.io/crates/cfg-expr)
-⛴️ [`discord-sdk`](https://github.com/EmbarkStudios/discord-sdk) | An open implementation of the Discord Game SDK in Rust | 
+⛴️ [`discord-sdk`](https://github.com/EmbarkStudios/discord-sdk) | An open implementation of the Discord Game SDK in Rust | [![Latest version](https://img.shields.io/crates/v/discord-sdk.svg)](https://crates.io/crates/discord-sdk)
 🚙 [`gsutil`](https://github.com/EmbarkStudios/gsutil) | A small, incomplete replacement for the official gsutil | [![Latest version](https://img.shields.io/crates/v/gsutil.svg)](https://crates.io/crates/gsutil)
 📦 [`krates`](https://github.com/EmbarkStudios/krates) | Creates graphs of crates from cargo metadata | [![Latest version](https://img.shields.io/crates/v/krates.svg)](https://crates.io/crates/krates)
 🆙 [`octobors`](https://github.com/EmbarkStudios/octobors) | GitHub action for automerging PRs based on a few rules
@@ -37,6 +37,7 @@ Name | Description | Crates.io
 📓 [`relnotes`](https://github.com/EmbarkStudios/relnotes) | Automatic GitHub release notes | [![Latest version](https://img.shields.io/crates/v/relnotes.svg)](https://crates.io/crates/relnotes)
 🐏 [`rpmalloc-rs`](https://github.com/EmbarkStudios/rpmalloc-rs) | Cross-platform Rust global memory allocator using [rpmalloc](https://github.com/rampantpixels/rpmalloc) | [![Latest version](https://img.shields.io/crates/v/rpmalloc.svg)](https://crates.io/crates/rpmalloc)
 🐉 [`rust-gpu`](https://github.com/EmbarkStudios/rust-gpu) |  Making Rust a first-class language & ecosystem for GPU code |
+🌌 [`rymder`](https://github.com/EmbarkStudios/rymder) | Unofficial agones client | [![Latest version](https://img.shields.io/crates/v/rymder.svg)](https://crates.io/crates/rymder)
 🆔 [`spdx`](https://github.com/EmbarkStudios/spdx) | Helper crate for SPDX expressions | [![Latest version](https://img.shields.io/crates/v/spdx.svg)](https://crates.io/crates/spdx)
 🛠 [`spirv-tools-rs`](https://github.com/EmbarkStudios/spirv-tools-rs) | An unofficial wrapper for SPIR-V Tools | [![Latest version](https://img.shields.io/crates/v/spirv-tools.svg)](https://crates.io/crates/spirv-tools)
 🔆 [`superluminal-perf`](https://github.com/EmbarkStudios/superluminal-perf-rs) | [Superluminal Performance](http://superluminal.eu) profiler integration | [![Latest version](https://img.shields.io/crates/v/superluminal-perf.svg)](https://crates.io/crates/superluminal-perf)

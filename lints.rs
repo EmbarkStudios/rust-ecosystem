@@ -58,6 +58,7 @@
     clippy::rest_pat_in_fully_bound_structs,
     clippy::same_functions_in_if_condition,
     clippy::semicolon_if_nothing_returned,
+    clippy::single_match_else,
     clippy::string_add_assign,
     clippy::string_add,
     clippy::string_lit_as_bytes,

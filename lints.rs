@@ -54,6 +54,7 @@
     clippy::option_option,
     clippy::path_buf_push_overwrite,
     clippy::ptr_as_ptr,
+    clippy::rc_mutex,
     clippy::ref_option_ref,
     clippy::rest_pat_in_fully_bound_structs,
     clippy::same_functions_in_if_condition,

@@ -74,7 +74,7 @@
     clippy::zero_sized_map_values,
     future_incompatible,
     nonstandard_style,
-    rust_2018_idioms,
+    rust_2018_idioms
 )]
 // END - Embark standard lints v0.5 for Rust 1.55+
 // crate-specific exceptions:

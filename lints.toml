@@ -1,6 +1,6 @@
 # add the below section to `.cargo/config.toml`
 
-[build]
+[target.'cfg(all())']
 rustflags = [
     # BEGIN - Embark standard lints v0.4
     # do not change or add/remove here, but one can add exceptions after this section

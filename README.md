@@ -104,6 +104,6 @@ Full list of projects and individual developers we are sponsoring: [OpenCollecti
 
 We're actively looking to collaborate with developers on the areas discussed in this repository. If you're interested in working on a specific issue or idea highlighted here, please reach out to us at [`opensource@embark-studios.com`](mailto:opensource@embark-studios.com) to discuss contracting opportunities or sponsorship.
 
-We are also [hiring](https://embark.games/jobs/) for full-time positions in Stockholm!
+We are also [hiring](https://embark.games/jobs/) for full-time positions remotely within Europe or on-site in Stockholm!
 
 Let's go! 🚀

@@ -30,6 +30,7 @@ Name | Description | Crates.io
 ⚙️ [`cfg-expr`](https://github.com/EmbarkStudios/cfg-expr) | A parser and evaluator for Rust `cfg()` expressions | [![Latest version](https://img.shields.io/crates/v/cfg-expr.svg)](https://crates.io/crates/cfg-expr)
 ⛴️ [`discord-sdk`](https://github.com/EmbarkStudios/discord-sdk) | An open implementation of the Discord Game SDK in Rust | [![Latest version](https://img.shields.io/crates/v/discord-sdk.svg)](https://crates.io/crates/discord-sdk)
 🚙 [`gsutil`](https://github.com/EmbarkStudios/gsutil) | A small, incomplete replacement for the official gsutil | [![Latest version](https://img.shields.io/crates/v/gsutil.svg)](https://crates.io/crates/gsutil)
+💡 [`kajiya`](https://github.com/EmbarkStudios/kajiya) | Experimental real-time global illumination renderer
 📦 [`krates`](https://github.com/EmbarkStudios/krates) | Creates graphs of crates from cargo metadata | [![Latest version](https://img.shields.io/crates/v/krates.svg)](https://crates.io/crates/krates)
 🆙 [`octobors`](https://github.com/EmbarkStudios/octobors) | GitHub action for automerging PRs based on a few rules
 🎳 [`physx`](https://github.com/EmbarkStudios/physx-rs) | Use [NVIDIA PhysX](https://github.com/NVIDIAGameWorks/PhysX) in Rust | [![Latest version](https://img.shields.io/crates/v/physx.svg)](https://crates.io/crates/physx)

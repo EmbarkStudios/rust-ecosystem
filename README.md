@@ -34,6 +34,7 @@ Name | Description | Crates.io
 📦 [`krates`](https://github.com/EmbarkStudios/krates) | Creates graphs of crates from cargo metadata | [![Latest version](https://img.shields.io/crates/v/krates.svg)](https://crates.io/crates/krates)
 🆙 [`octobors`](https://github.com/EmbarkStudios/octobors) | GitHub action for automerging PRs based on a few rules
 🎳 [`physx`](https://github.com/EmbarkStudios/physx-rs) | Use [NVIDIA PhysX](https://github.com/NVIDIAGameWorks/PhysX) in Rust | [![Latest version](https://img.shields.io/crates/v/physx.svg)](https://crates.io/crates/physx)
+⌛ [`poll-promise`](https://github.com/EmbarkStudios/poll-promise) | A Rust promise for games and immediate mode GUIs  | [![Latest version](https://img.shields.io/crates/v/poll-promise.svg)](https://crates.io/crates/poll-promise)
 🐦 [`puffin`](https://github.com/EmbarkStudios/puffin) | Simple instrumentation profiler for Rust | [![Latest version](https://img.shields.io/crates/v/puffin.svg)](https://crates.io/crates/puffin)
 📓 [`relnotes`](https://github.com/EmbarkStudios/relnotes) | Automatic GitHub release notes | [![Latest version](https://img.shields.io/crates/v/relnotes.svg)](https://crates.io/crates/relnotes)
 🐏 [`rpmalloc-rs`](https://github.com/EmbarkStudios/rpmalloc-rs) | Cross-platform Rust global memory allocator using [rpmalloc](https://github.com/rampantpixels/rpmalloc) | [![Latest version](https://img.shields.io/crates/v/rpmalloc.svg)](https://crates.io/crates/rpmalloc)

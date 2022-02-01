@@ -96,7 +96,6 @@ Projects we are currently sponsoring:
 to the Rust programming language"_
 * __[Clap](https://clap.rs)__ - _"Fast. Configurable. Argument Parsing for Rust"_
 * __[Gtk-rs](https://gtk-rs.org/)__ - _"Rust bindings for GTK+ 3, Cairo, GtkSourceView and other GLib-compatible libraries"_
-* __[headcrab](https://headcrab.rs/)__ - _"A modern Rust debugger library"_
 * __[knurling-rs](https://knurling.ferrous-systems.com/)__ - _"Improving the tools and material used to build, debug, and learn embedded systems"_
 * __[Tokio](https://tokio.rs)__ - _"Build reliable network applications without compromising speed"_
 

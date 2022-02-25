@@ -77,7 +77,7 @@ Areas that we are interested in or working on, and want to help see improved in 
 
 * 📺📱 __Console & mobile platform support__ - PlayStation, Xbox, Android. [#18](https://github.com/EmbarkStudios/rust-ecosystem/issues/18)
 
-* 🏎 [__Rust on GPU__](https://shader.rs) - future compute & ML programming models beyond shaders, https://shader.rs
+* 🏎 [__Rust on GPU__](https://shader.rs) - future compute & ML programming models beyond shaders, <https://shader.rs>
 
 We track and discuss these from our perspective in the __[Issues](https://github.com/EmbarkStudios/rust-ecosystem/issues)__ for visibility and to get feedback, feel free to join in if you have ideas!
 
@@ -89,7 +89,6 @@ We believe that open source creators are integral to the success of the Rust eco
 
 Projects we are currently sponsoring:
 
-* __[Amethyst](https://amethyst.rs/)__ - _"Data-driven game engine written in Rust"_
 * __[Bevy](https://bevyengine.org/)__ - _"A refreshingly simple data-driven game engine built in Rust"_
 * __[Dimforge](https://www.dimforge.com/)__ - _"Open-Source Rust crates for numerical simulation"_
 * __[rust-analyzer](https://github.com/rust-analyzer/rust-analyzer)__ - _"Bringing a great IDE experience
@@ -101,7 +100,7 @@ to the Rust programming language"_
 
 Full list of projects and individual developers we are sponsoring: [OpenCollective](https://opencollective.com/embarkstudios), [GitHub Sponsors](https://github.com/embark-studios) and [Patreon](https://www.patreon.com/embarkstudios/creators).
 
-## Work with us!
+## Work with us
 
 We're actively looking to collaborate with developers on the areas discussed in this repository. If you're interested in working on a specific issue or idea highlighted here, please reach out to us at [`opensource@embark-studios.com`](mailto:opensource@embark-studios.com) to discuss contracting opportunities or sponsorship.
 
@@ -113,8 +112,8 @@ Let's go! 🚀
 
 Licensed under either of
 
-* Apache License, Version 2.0, ([LICENSE-APACHE](LICENSE-APACHE) or http://www.apache.org/licenses/LICENSE-2.0)
-* MIT license ([LICENSE-MIT](LICENSE-MIT) or http://opensource.org/licenses/MIT)
+* Apache License, Version 2.0, ([LICENSE-APACHE](LICENSE-APACHE) or <http://www.apache.org/licenses/LICENSE-2.0>)
+* MIT license ([LICENSE-MIT](LICENSE-MIT) or <http://opensource.org/licenses/MIT>)
 
 at your option.
 

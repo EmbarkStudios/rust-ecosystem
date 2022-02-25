@@ -75,6 +75,6 @@
     nonstandard_style,
     rust_2018_idioms
 )]
-// END - Embark standard lints v0.5 for Rust 1.55+
+// END - Embark standard lints v6 for Rust 1.55+
 // crate-specific exceptions:
 #![allow()]

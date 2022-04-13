@@ -29,6 +29,7 @@ Name | Description | Crates.io
 🎁 [`cargo-fetcher`](https://github.com/EmbarkStudios/cargo-fetcher) | `cargo fetch` alternative for use in CI or other "clean" environments | [![Latest version](https://img.shields.io/crates/v/cargo-fetcher.svg)](https://crates.io/crates/cargo-fetcher)
 ⚙️ [`cfg-expr`](https://github.com/EmbarkStudios/cfg-expr) | A parser and evaluator for Rust `cfg()` expressions | [![Latest version](https://img.shields.io/crates/v/cfg-expr.svg)](https://crates.io/crates/cfg-expr)
 📒 [`cloud-dns`](https://github.com/EmbarkStudios/cloud-dns) | Client to interact with Google Cloud DNS v1 | [![Latest version](https://img.shields.io/crates/v/cloud-dns.svg)](https://crates.io/crates/cloud-dns) |
+🔥 [`crash-handling`](https://github.com/EmbarkStudios/crash-handling) | Collection of crates for catching and handling crashes
 ⛴️ [`discord-sdk`](https://github.com/EmbarkStudios/discord-sdk) | An open implementation of the Discord Game SDK in Rust | [![Latest version](https://img.shields.io/crates/v/discord-sdk.svg)](https://crates.io/crates/discord-sdk)
 🚙 [`gsutil`](https://github.com/EmbarkStudios/gsutil) | A small, incomplete replacement for the official gsutil | [![Latest version](https://img.shields.io/crates/v/gsutil.svg)](https://crates.io/crates/gsutil)
 💡 [`kajiya`](https://github.com/EmbarkStudios/kajiya) | Experimental real-time global illumination renderer

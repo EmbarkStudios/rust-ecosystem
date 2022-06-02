@@ -27,6 +27,7 @@ Name | Description | Crates.io
 📜 [`cargo-about`](https://github.com/EmbarkStudios/cargo-about) | Cargo plugin to generate list of all licenses for a crate | [![Latest version](https://img.shields.io/crates/v/cargo-about.svg)](https://crates.io/crates/cargo-about)
 ❌ [`cargo-deny`](https://github.com/EmbarkStudios/cargo-deny) | Cargo plugin to help you manage large dependency graphs | [![Latest version](https://img.shields.io/crates/v/cargo-deny.svg)](https://crates.io/crates/cargo-deny)
 🎁 [`cargo-fetcher`](https://github.com/EmbarkStudios/cargo-fetcher) | `cargo fetch` alternative for use in CI or other "clean" environments | [![Latest version](https://img.shields.io/crates/v/cargo-fetcher.svg)](https://crates.io/crates/cargo-fetcher)
+🧠 [`cervo`](https://github.com/EmbarkStudios/cervo) | Middleware used for ML inference in our games. | [![Latest version](https://img.shields.io/crates/v/cervo.svg)](https://crates.io/crates/cervo)
 ⚙️ [`cfg-expr`](https://github.com/EmbarkStudios/cfg-expr) | A parser and evaluator for Rust `cfg()` expressions | [![Latest version](https://img.shields.io/crates/v/cfg-expr.svg)](https://crates.io/crates/cfg-expr)
 📒 [`cloud-dns`](https://github.com/EmbarkStudios/cloud-dns) | Client to interact with Google Cloud DNS v1 | [![Latest version](https://img.shields.io/crates/v/cloud-dns.svg)](https://crates.io/crates/cloud-dns) |
 🔥 [`crash-handling`](https://github.com/EmbarkStudios/crash-handling) | Collection of crates for catching and handling crashes
@@ -49,6 +50,7 @@ Name | Description | Crates.io
 🔐 [`tame-oauth`](https://github.com/EmbarkStudios/tame-oauth) | Small OAuth crate that follows the sans-io approach | [![Latest version](https://img.shields.io/crates/v/tame-oauth.svg)](https://crates.io/crates/tame-oauth)
 🧬 [`tame-oidc`](https://github.com/EmbarkStudios/tame-oidc) | Small OIDC crate that follows the sans-io approach | [![Latest version](https://img.shields.io/crates/v/tame-oidc.svg)](https://crates.io/crates/tame-oidc)
 🎨 [`texture-synthesis`](https://github.com/EmbarkStudios/texture-synthesis) | Example-based texture synthesis generator and CLI example | [![Latest version](https://img.shields.io/crates/v/texture-synthesis.svg)](https://crates.io/crates/texture-synthesis)
+⏱️ [`tracing-ext-ffi-subscriber`](https://github.com/EmbarkStudios/tracing-ext-ffi-subscriber) | Subscriber for passing spans to a profiling tool via FFI. | [![Latest version](https://img.shields.io/crates/v/tracing-ext-ffi-subscriber.svg)](https://crates.io/crates/tracing-ext-ffi-subscriber)
 💫 [`tryhard`](https://github.com/EmbarkStudios/tryhard) | Easily retry futures | [![Latest version](https://img.shields.io/crates/v/tryhard.svg)](https://crates.io/crates/tryhard)
 
 You can see all these crates on our [crates.io profile](https://crates.io/users/embark-studios).

@@ -51,6 +51,7 @@ Name | Description | Crates.io
 🧬 [`tame-oidc`](https://github.com/EmbarkStudios/tame-oidc) | Small OIDC crate that follows the sans-io approach | [![Latest version](https://img.shields.io/crates/v/tame-oidc.svg)](https://crates.io/crates/tame-oidc)
 🎨 [`texture-synthesis`](https://github.com/EmbarkStudios/texture-synthesis) | Example-based texture synthesis generator and CLI example | [![Latest version](https://img.shields.io/crates/v/texture-synthesis.svg)](https://crates.io/crates/texture-synthesis)
 ⏱️ [`tracing-ext-ffi-subscriber`](https://github.com/EmbarkStudios/tracing-ext-ffi-subscriber) | Subscriber for passing spans to a profiling tool via FFI. | [![Latest version](https://img.shields.io/crates/v/tracing-ext-ffi-subscriber.svg)](https://crates.io/crates/tracing-ext-ffi-subscriber)
+🪵️ [`tracing-logfmt`](https://github.com/EmbarkStudios/tracing-logfmt) | A logfmt formatter for tracing-subscriber. | [![Latest version](https://img.shields.io/crates/v/tracing-logfmt.svg)](https://crates.io/crates/tracing-logfmt)
 💫 [`tryhard`](https://github.com/EmbarkStudios/tryhard) | Easily retry futures | [![Latest version](https://img.shields.io/crates/v/tryhard.svg)](https://crates.io/crates/tryhard)
 
 You can see all these crates on our [crates.io profile](https://crates.io/users/embark-studios).

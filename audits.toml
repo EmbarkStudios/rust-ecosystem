@@ -1,0 +1,198 @@
+
+# cargo-vet audits file
+
+[[audits.anyhow]]
+who = "Johan Andersson <johan@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "1.0.58"
+
+[[audits.ark-api]]
+who = "Johan Andersson <johan@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.15.1"
+notes = "Maintained by the Ark team at Embark"
+
+[[audits.ark-api-ffi]]
+who = "Johan Andersson <johan@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.15.1"
+notes = "Maintained by the Ark team at Embark"
+
+[[audits.ark-api-macros]]
+who = "Johan Andersson <johan@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.10.0"
+notes = "Maintained by the Ark team at Embark"
+
+[[audits.ark-module]]
+who = "Johan Andersson <johan@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.15.1"
+notes = "Maintained by the Ark team at Embark"
+
+[[audits.cervo]]
+who = "Johan Andersson <johan@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.2.0"
+notes = "Maintained by Embark"
+
+[[audits.cervo-asset]]
+who = "Johan Andersson <johan@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.2.0"
+notes = "Maintained by Embark"
+
+[[audits.cervo-core]]
+who = "Johan Andersson <johan@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.2.0"
+notes = "Maintained by Embark"
+
+[[audits.cervo-nnef]]
+who = "Johan Andersson <johan@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.2.0"
+notes = "Maintained by Embark"
+
+[[audits.cervo-onnx]]
+who = "Johan Andersson <johan@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.2.0"
+notes = "Maintained by Embark"
+
+[[audits.cty]]
+who = "Johan Andersson <johan@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.2.2"
+notes = "Inspected it and is a tiny crate with just type definitions"
+
+[[audits.egui-ark]]
+who = "Johan Andersson <johan@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.36.0"
+notes = "Maintained by the Ark team at Embark"
+
+[[audits.macaw]]
+who = "Johan Andersson <johan@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.17.0"
+notes = "Maintained by the Ark team at Embark"
+
+[[audits.natord]]
+who = "Johan Andersson <johan@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "1.0.9"
+notes = "Inspected and it is a tiny crate with no unsafe or system interactions, just string comparisons"
+
+[[audits.perchance]]
+who = "Johan Andersson <johan@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.3.1"
+notes = "Maintained by the Ark team at Embark"
+
+[[audits.pollster]]
+who = "Johan Andersson <johan@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.2.5"
+notes = "Inspected it and it is a minimal crate for blocking on futures and does nothing else"
+
+[[audits.puffin]]
+who = "Johan Andersson <johan@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.13.3"
+notes = "Maintained by Embark"
+
+[[audits.puffin]]
+who = "Johan Andersson <johan@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.17.0"
+notes = "Maintained by Embark"
+
+[[audits.puffin-imgui]]
+who = "Johan Andersson <johan@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.17.0"
+notes = "Maintained by Embark"
+
+[[audits.sadness-generator]]
+who = "Johan Andersson <johan@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.4.1"
+notes = "Maintained by Embark"
+
+[[audits.saft]]
+who = "Johan Andersson <johan@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.30.0"
+notes = "Maintained by the Ark team at Embark"
+
+[[audits.serial_test]]
+who = "Johan Andersson <johan@embark-studios.com>"
+criteria = "safe-to-run"
+version = "0.6.0"
+
+[[audits.serial_test_derive]]
+who = "Johan Andersson <johan@embark-studios.com>"
+criteria = "safe-to-run"
+version = "0.6.0"
+
+[[audits.spirv-std]]
+who = "Johan Andersson <johan@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.4.0-alpha.12"
+notes = "Maintained by the rust-gpu team at Embark"
+
+[[audits.spirv-std-macros]]
+who = "Johan Andersson <johan@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.4.0-alpha.12"
+notes = "Maintained by the rust-gpu team at Embark"
+
+[[audits.spirv-types]]
+who = "Johan Andersson <johan@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.4.0-alpha.12"
+notes = "Maintained by the rust-gpu team at Embark"
+
+[[audits.superluminal-perf]]
+who = "Johan Andersson <johan@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.1.1"
+notes = "I created and maintain this crate with Embark. It has been stable for 2 years, is for Windows only, and is a thin safe layer over FFI"
+
+[[audits.superluminal-perf-sys]]
+who = "Johan Andersson <johan@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.1.2"
+notes = "I created and maintain this crate with Embark. It has been stable for 2 years, It is for Windows only and is an FFI layer over a pre-built static library provided by Superluminal.io"
+
+[[audits.tiny-bench]]
+who = "Johan Andersson <johan@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.1.0"
+notes = "Maintained by Embark"
+
+[[audits.tiny-bench]]
+who = "Johan Andersson <johan@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.1.1"
+notes = "Maintained by Embark"
+
+[[audits.tinyvec_macros]]
+who = "Johan Andersson <johan@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.1.0"
+notes = "Inspected it and is a tiny crate with single safe macro"
+
+[[audits.uname]]
+who = "Johan Andersson <johan@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.1.1"
+notes = "Inspected it and is tiny crate wrapping libc function with some unsafe usage for string handling"
+
+[[audits.webpki-roots]]
+who = "Johan Andersson <johan@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.22.4"
+notes = "Inspected it to confirm that it only contains data definitions and no runtime code"
+

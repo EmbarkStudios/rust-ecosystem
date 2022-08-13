@@ -76,10 +76,22 @@ criteria = "safe-to-deploy"
 version = "0.3.1"
 notes = "Maintained by the Ark team at Embark"
 
+[[audits.physx]]
+who = "Johan Andersson <johan@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.13.0"
+notes = "Maintained by the Ark team at Embark"
+
+[[audits.physx-sys]]
+who = "Johan Andersson <johan@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.5.0"
+notes = "Maintained by the Ark team at Embark"
+
 [[audits.puffin]]
 who = "Johan Andersson <johan@embark-studios.com>"
 criteria = "safe-to-deploy"
-version = "0.17.0"
+delta = "0.13.0 -> 0.13.3"
 notes = "Maintained by Embark"
 
 [[audits.puffin-imgui]]
@@ -117,7 +129,6 @@ who = "Johan Andersson <johan@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "0.4.0-alpha.12"
 notes = "Maintained by the rust-gpu team at Embark"
-
 
 [[audits.superluminal-perf]]
 who = "Johan Andersson <johan@embark-studios.com>"

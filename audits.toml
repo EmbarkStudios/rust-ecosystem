@@ -1,10 +1,8 @@
 
 # cargo-vet audits file
 
-[[audits.anyhow]]
-who = "Johan Andersson <johan@embark-studios.com>"
-criteria = "safe-to-deploy"
-version = "1.0.58"
+
+# our own crates that we develop and maintain
 
 [[audits.ark-api]]
 who = "Johan Andersson <johan@embark-studios.com>"
@@ -60,12 +58,6 @@ criteria = "safe-to-deploy"
 version = "0.2.0"
 notes = "Maintained by Embark"
 
-[[audits.cty]]
-who = "Johan Andersson <johan@embark-studios.com>"
-criteria = "safe-to-deploy"
-version = "0.2.2"
-notes = "Inspected it and is a tiny crate with just type definitions"
-
 [[audits.egui-ark]]
 who = "Johan Andersson <johan@embark-studios.com>"
 criteria = "safe-to-deploy"
@@ -78,29 +70,11 @@ criteria = "safe-to-deploy"
 version = "0.17.0"
 notes = "Maintained by the Ark team at Embark"
 
-[[audits.natord]]
-who = "Johan Andersson <johan@embark-studios.com>"
-criteria = "safe-to-deploy"
-version = "1.0.9"
-notes = "Inspected and it is a tiny crate with no unsafe or system interactions, just string comparisons"
-
 [[audits.perchance]]
 who = "Johan Andersson <johan@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "0.3.1"
 notes = "Maintained by the Ark team at Embark"
-
-[[audits.pollster]]
-who = "Johan Andersson <johan@embark-studios.com>"
-criteria = "safe-to-deploy"
-version = "0.2.5"
-notes = "Inspected it and it is a minimal crate for blocking on futures and does nothing else"
-
-[[audits.puffin]]
-who = "Johan Andersson <johan@embark-studios.com>"
-criteria = "safe-to-deploy"
-version = "0.13.3"
-notes = "Maintained by Embark"
 
 [[audits.puffin]]
 who = "Johan Andersson <johan@embark-studios.com>"
@@ -126,16 +100,6 @@ criteria = "safe-to-deploy"
 version = "0.30.0"
 notes = "Maintained by the Ark team at Embark"
 
-[[audits.serial_test]]
-who = "Johan Andersson <johan@embark-studios.com>"
-criteria = "safe-to-run"
-version = "0.6.0"
-
-[[audits.serial_test_derive]]
-who = "Johan Andersson <johan@embark-studios.com>"
-criteria = "safe-to-run"
-version = "0.6.0"
-
 [[audits.spirv-std]]
 who = "Johan Andersson <johan@embark-studios.com>"
 criteria = "safe-to-deploy"
@@ -154,6 +118,7 @@ criteria = "safe-to-deploy"
 version = "0.4.0-alpha.12"
 notes = "Maintained by the rust-gpu team at Embark"
 
+
 [[audits.superluminal-perf]]
 who = "Johan Andersson <johan@embark-studios.com>"
 criteria = "safe-to-deploy"
@@ -169,13 +134,7 @@ notes = "I created and maintain this crate with Embark. It has been stable for 2
 [[audits.tiny-bench]]
 who = "Johan Andersson <johan@embark-studios.com>"
 criteria = "safe-to-deploy"
-version = "0.1.0"
-notes = "Maintained by Embark"
-
-[[audits.tiny-bench]]
-who = "Johan Andersson <johan@embark-studios.com>"
-criteria = "safe-to-deploy"
-version = "0.1.1"
+delta = "0.1.0 -> 0.1.1"
 notes = "Maintained by Embark"
 
 [[audits.tinyvec_macros]]
@@ -183,6 +142,44 @@ who = "Johan Andersson <johan@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "0.1.0"
 notes = "Inspected it and is a tiny crate with single safe macro"
+
+
+# third party crates we've done at least light audit / inspection of 
+
+
+
+[[audits.anyhow]]
+who = "Johan Andersson <johan@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "1.0.58"
+
+[[audits.cty]]
+who = "Johan Andersson <johan@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.2.2"
+notes = "Inspected it and is a tiny crate with just type definitions"
+
+[[audits.natord]]
+who = "Johan Andersson <johan@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "1.0.9"
+notes = "Inspected and it is a tiny crate with no unsafe or system interactions, just string comparisons"
+
+[[audits.pollster]]
+who = "Johan Andersson <johan@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.2.5"
+notes = "Inspected it and it is a minimal crate for blocking on futures and does nothing else"
+
+[[audits.serial_test]]
+who = "Johan Andersson <johan@embark-studios.com>"
+criteria = "safe-to-run"
+version = "0.6.0"
+
+[[audits.serial_test_derive]]
+who = "Johan Andersson <johan@embark-studios.com>"
+criteria = "safe-to-run"
+version = "0.6.0"
 
 [[audits.uname]]
 who = "Johan Andersson <johan@embark-studios.com>"

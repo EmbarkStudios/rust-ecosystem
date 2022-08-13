@@ -115,19 +115,19 @@ notes = "Maintained by the Ark team at Embark"
 [[audits.spirv-std]]
 who = "Johan Andersson <johan@embark-studios.com>"
 criteria = "safe-to-deploy"
-version = "0.4.0-alpha.12"
+delta = "0.4.0-alpha.12 -> 0.4.0-alpha.14"
 notes = "Maintained by the rust-gpu team at Embark"
 
 [[audits.spirv-std-macros]]
 who = "Johan Andersson <johan@embark-studios.com>"
 criteria = "safe-to-deploy"
-version = "0.4.0-alpha.12"
+delta = "0.4.0-alpha.12 -> 0.4.0-alpha.14"
 notes = "Maintained by the rust-gpu team at Embark"
 
-[[audits.spirv-types]]
+[[audits.spirv-std-types]]
 who = "Johan Andersson <johan@embark-studios.com>"
 criteria = "safe-to-deploy"
-version = "0.4.0-alpha.12"
+version = "0.4.0-alpha.14"
 notes = "Maintained by the rust-gpu team at Embark"
 
 [[audits.superluminal-perf]]

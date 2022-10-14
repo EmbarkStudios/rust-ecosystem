@@ -4,7 +4,7 @@
 
 High-level tracking and discussions about improving Rust and the Rust ecosystem for our game development use cases at [Embark](http://embark.games).
 
-Check out the __[Issues](https://github.com/EmbarkStudios/rust-ecosystem/issues)__ for active topics.
+Check out the __[Issues](https://github.com/EmbarkStudios/rust-ecosystem/issues)__ for active topics. And our [embark.dev](https://embark.dev) open source portal.
 
 ## Background
 

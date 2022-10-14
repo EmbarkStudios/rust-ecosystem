@@ -1,8 +1,10 @@
-
 # cargo-vet audits file
+#
+# see https://mozilla.github.io/cargo-vet/index.html for more info how cargo-vet works
 
-
+# -------------------------------------------
 # our own crates that we develop and maintain
+# -------------------------------------------
 
 [[audits.ark-api]]
 who = "Johan Andersson <johan@embark-studios.com>"
@@ -152,7 +154,6 @@ notes = "Maintained by the rust-gpu team at Embark"
 
 # -----
 
-
 [[audits.superluminal-perf]]
 who = "Johan Andersson <johan@embark-studios.com>"
 criteria = "safe-to-deploy"
@@ -171,16 +172,16 @@ criteria = "safe-to-deploy"
 delta = "0.1.0 -> 0.1.1"
 notes = "Maintained by Embark"
 
+
+# ------------------------------------------------------------------
+# third party crates we've done at least light audit / inspection of 
+# ------------------------------------------------------------------
+
 [[audits.tinyvec_macros]]
 who = "Johan Andersson <johan@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "0.1.0"
 notes = "Inspected it and is a tiny crate with single safe macro"
-
-
-# third party crates we've done at least light audit / inspection of 
-
-
 
 [[audits.anyhow]]
 who = "Johan Andersson <johan@embark-studios.com>"

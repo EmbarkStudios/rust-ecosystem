@@ -168,7 +168,13 @@ notes = "I created and maintain this crate with Embark. It has been stable for 2
 
 [[audits.tiny-bench]]
 who = "Johan Andersson <johan@embark-studios.com>"
-criteria = "safe-to-deploy"
+criteria = "safe-to-run"
+version = "0.1.0"
+notes = "Maintained by Embark"
+
+[[audits.tiny-bench]]
+who = "Johan Andersson <johan@embark-studios.com>"
+criteria = "safe-to-run"
 delta = "0.1.0 -> 0.1.1"
 notes = "Maintained by Embark"
 

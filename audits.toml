@@ -84,11 +84,23 @@ criteria = "safe-to-deploy"
 version = "0.13.0"
 notes = "Maintained by the Ark team at Embark"
 
+[[audits.physx]]
+who = "Johan Andersson <johan@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.16.0"
+notes = "Maintained by the Ark team at Embark"
+
 [[audits.physx-sys]]
 who = "Johan Andersson <johan@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "0.5.0"
-notes = "Maintained by the Ark team at Embark"
+notes = "Maintained by the Ark team at Embark. Note that this is a unsafe FFI layer on top of a complex C++ library so may be some unknown unsoundness, but we have been using it in games production for a couple of years"
+
+[[audits.physx-sys]]
+who = "Johan Andersson <johan@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.8.0"
+notes = "Maintained by the Ark team at Embark. Note that this is a unsafe FFI layer on top of a complex C++ library so may be some unknown unsoundness, but we have been using it in games production for a couple of years"
 
 [[audits.puffin]]
 who = "Johan Andersson <johan@embark-studios.com>"

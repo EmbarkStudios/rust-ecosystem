@@ -66,7 +66,7 @@ We primarily use [VS Code](https://code.visualstudio.com/) as development enviro
 Extensions:
 
 * Main:
-  * [Rust (rls)](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust)
+  * [Rust analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer) - language support for Rust
   * [Crates](https://marketplace.visualstudio.com/items?itemName=serayuzgur.crates) - easy Cargo.toml dependency version management
   * [C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) - for debugging on Windows
   * [Native Debug](https://marketplace.visualstudio.com/items?itemName=webfreak.debug) - for debugging on Linux & Mac using GDB/LLDB

@@ -280,3 +280,9 @@ who = "Johan Andersson <johan@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "0.24.1"
 notes = "Tiny layer on top of the proc macro crate, found no unsafe or system usage"
+
+[[audits.mimalloc]]
+who = "Johan Andersson <johan@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.1.31"
+notes = "Inspected it and it is a tiny crate implementing allocator wrapping a the allocator C++ sys crate but with simple unsafe code that looks sound"

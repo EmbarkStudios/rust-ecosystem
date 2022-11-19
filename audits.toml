@@ -271,6 +271,12 @@ who = "Johan Andersson <johan@embark-studios.com>"
 criteria = "safe-to-run"
 version = "0.6.0"
 
+[[audits.serial_test]]
+who = "Johan Andersson <johan@embark-studios.com>"
+criteria = "safe-to-run"
+delta = "0.6.0 -> 0.8.0"
+notes = "No unsafe and ambient capability with lock file creation is not exposed"
+
 [[audits.serial_test_derive]]
 who = "Johan Andersson <johan@embark-studios.com>"
 criteria = "safe-to-run"

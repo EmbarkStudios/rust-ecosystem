@@ -269,3 +269,8 @@ who = "Johan Andersson <johan@embark-studios.com>"
 criteria = "safe-to-run"
 version = "0.22.0"
 notes = "No unsafe code, does interact with Cargo and launches processes with rustdoc which at a casual inspection looks sane"
+
+[[audits.public-api]]
+who = "Johan Andersson <johan@embark-studios.com>"
+criteria = "safe-to-run"
+delta = "0.22.0 -> 0.23.0"

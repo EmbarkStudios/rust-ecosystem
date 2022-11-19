@@ -193,7 +193,7 @@ notes = "Maintained by Embark"
 [[audits.tiny-bench]]
 who = "Johan Andersson <johan@embark-studios.com>"
 criteria = "safe-to-run"
-delta = "0.1.0 -> 0.1.1"
+delta = "0.1.0 -> 0.2.0"
 notes = "Maintained by Embark"
 
 

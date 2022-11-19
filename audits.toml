@@ -390,6 +390,14 @@ No unsafe usage or ambient capabilities itself, used in production since 2020.
 Written by Emil Ernerfeldt who used to work with us at Embark Studios.
 """
 
+# TODO: uncomment this when an new version with fully defined licenses has been released
+#[[audits.epaint]]
+#who = "Johan Andersson <opensource@embark-studios.com>"
+#criteria = "safe-to-deploy"
+#violation = "*" # TODO: specify new version as cap here
+#notes = "Specified crate license does not include licenses of embedded fonts if using default features or the `default_fonts` feature. Tracked in: https://github.com/emilk/egui/issues/2321"
+
+
 [[audits.emath]]
 who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"

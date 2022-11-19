@@ -377,7 +377,17 @@ version = "0.18.0"
 notes = """
 No unsafe usage or ambient capabilities itself, used in production since 2020.
 
-Written by former Emil Ernerfeldt who used to work with us at Embark Studios.
+Written by Emil Ernerfeldt who used to work with us at Embark Studios.
+"""
+
+[[audits.epaint]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.18.0"
+notes = """
+No unsafe usage or ambient capabilities itself, used in production since 2020.
+
+Written by Emil Ernerfeldt who used to work with us at Embark Studios.
 """
 
 [[audits.emath]]
@@ -387,7 +397,7 @@ version = "0.18.0"
 notes = """
 Math crate with no unsafe usage or ambient capabilities, used in production since 2020.
 
-Written by former Emil Ernerfeldt who used to work with us at Embark Studios.
+Written by Emil Ernerfeldt who used to work with us at Embark Studios.
 """
 
 [[audits.egui-winit]]
@@ -398,5 +408,5 @@ notes = """
 No unsafe usage or ambient capabilities itself, used in production since 2020.
 Does interact with clipboard, but through separate crate.
 
-Written by former Emil Ernerfeldt who used to work with us at Embark Studios.
+Written by Emil Ernerfeldt who used to work with us at Embark Studios.
 """

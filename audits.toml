@@ -105,13 +105,43 @@ notes = "Maintained by the Ark team at Embark. Note that this is a unsafe FFI la
 [[audits.puffin]]
 who = "Johan Andersson <johan@embark-studios.com>"
 criteria = "safe-to-deploy"
-delta = "0.13.0 -> 0.13.3"
+version = "0.13.0"
+notes = "Maintained by Embark"
+
+[[audits.puffin]]
+who = "Johan Andersson <johan@embark-studios.com>"
+criteria = "safe-to-deploy"
+delta = "0.13.0 -> 0.14.0"
 notes = "Maintained by Embark"
 
 [[audits.puffin-imgui]]
 who = "Johan Andersson <johan@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "0.17.0"
+notes = "Maintained by Embark"
+
+[[audits.puffin-imgui]]
+who = "Johan Andersson <johan@embark-studios.com>"
+criteria = "safe-to-deploy"
+delta = "0.17.0 -> 0.18.0"
+notes = "Maintained by Embark"
+
+[[audits.puffin_egui]]
+who = "Johan Andersson <johan@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.17.0"
+notes = "Maintained by Embark"
+
+[[audits.puffin_egui]]
+who = "Johan Andersson <johan@embark-studios.com>"
+criteria = "safe-to-deploy"
+delta = "0.17.0 -> 0.18.0"
+notes = "Maintained by Embark"
+
+[[audits.puffin_http]]
+who = "Johan Andersson <johan@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.11.0"
 notes = "Maintained by Embark"
 
 [[audits.sadness-generator]]

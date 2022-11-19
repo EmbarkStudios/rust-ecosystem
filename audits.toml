@@ -162,6 +162,12 @@ criteria = "safe-to-deploy"
 version = "0.30.0"
 notes = "Maintained by the Ark team at Embark"
 
+[[audits.ash-molten]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.12.0+1.1.5"
+notes = "Maintained by the Ark team at Embark"
+
 # can't have ranges for pre-releases so have to have a lot of duplication here
 
 [[audits.spirv-std]]
@@ -340,9 +346,9 @@ who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "0.3.1"
 notes = """
-No unsafe and no dependencies except math (glam).
+No unsafe and no dependencies except math (glam), used it in production since 2021.
 
-Written by Tomasz Stachowiak as side-project while employed with us at Embark Studios, and we've used it in production since 2021
+Written by Tomasz Stachowiak as side-project while employed with us at Embark Studios.
 """
 
 [[audits.similar-asserts]]
@@ -362,3 +368,35 @@ who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "0.1.1"
 notes = "Tiny crate that initializes Android with FFI, looks sane. No other ambient capabilities"
+
+
+[[audits.egui]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.18.0"
+notes = """
+No unsafe usage or ambient capabilities itself, used in production since 2020.
+
+Written by former Emil Ernerfeldt who used to work with us at Embark Studios.
+"""
+
+[[audits.emath]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.18.0"
+notes = """
+Math crate with no unsafe usage or ambient capabilities, used in production since 2020.
+
+Written by former Emil Ernerfeldt who used to work with us at Embark Studios.
+"""
+
+[[audits.egui-winit]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.18.0"
+notes = """
+No unsafe usage or ambient capabilities itself, used in production since 2020.
+Does interact with clipboard, but through separate crate.
+
+Written by former Emil Ernerfeldt who used to work with us at Embark Studios.
+"""

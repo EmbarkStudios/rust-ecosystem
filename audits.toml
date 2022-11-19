@@ -120,6 +120,12 @@ criteria = "safe-to-deploy"
 version = "0.4.1"
 notes = "Maintained by Embark"
 
+[[audits.sadness-generator]]
+who = "Johan Andersson <johan@embark-studios.com>"
+criteria = "safe-to-deploy"
+delta = "0.4.1 -> 0.5.0"
+notes = "Maintained by Embark"
+
 [[audits.saft]]
 who = "Johan Andersson <johan@embark-studios.com>"
 criteria = "safe-to-deploy"

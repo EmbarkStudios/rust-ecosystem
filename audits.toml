@@ -292,3 +292,13 @@ who = "Johan Andersson <johan@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "0.2.0"
 notes = "Tiny crate with no dependencies, no unsafe, and no ambient capabilities"
+
+[[audits.dolly]]
+who = "Johan Andersson <johan@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.3.1"
+notes = """
+No unsafe and no dependencies except math (glam).
+
+Written by Tomasz Stachowiak as side-project while employed with us at Embark Studios, and we've used it in production since 2021
+"""

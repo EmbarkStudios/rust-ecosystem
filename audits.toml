@@ -338,3 +338,9 @@ who = "Johan Andersson <johan@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "1.2.0"
 notes = "Small crate with no unsafe or ambient capabilities"
+
+[[audits.cap-std]]
+who = "Johan Andersson <johan@embark-studios.com>"
+criteria = "safe-to-deploy"
+delta = "0.26.0 -> 0.26.1"
+notes = "No changes, only version bump"

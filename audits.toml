@@ -286,3 +286,9 @@ who = "Johan Andersson <johan@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "0.1.31"
 notes = "Inspected it and it is a tiny crate implementing allocator wrapping a the allocator C++ sys crate but with simple unsafe code that looks sound"
+
+[[audits.nohash-hasher]]
+who = "Johan Andersson <johan@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.2.0"
+notes = "Tiny crate with no dependencies, no unsafe, and no ambient capabilities"

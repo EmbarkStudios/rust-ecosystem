@@ -354,9 +354,9 @@ who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "0.3.1"
 notes = """
-No unsafe and no dependencies except math (glam).
+No unsafe and no dependencies except math (glam), used it in production since 2021.
 
-Written by Tomasz Stachowiak as side-project while employed with us at Embark Studios, and we've used it in production since 2021
+Written by Tomasz Stachowiak as side-project while employed with us at Embark Studios.
 """
 
 [[audits.similar-asserts]]
@@ -376,3 +376,78 @@ who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "0.1.1"
 notes = "Tiny crate that initializes Android with FFI, looks sane. No other ambient capabilities"
+
+
+[[audits.egui]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.18.0"
+notes = """
+No unsafe usage or ambient capabilities itself, used in production since 2020.
+
+Written by Emil Ernerfeldt who used to work with us at Embark Studios.
+"""
+
+[[audits.egui]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+delta = "0.18.0 -> 0.19.0"
+notes = "No unsafe usage and no ambient capabilities"
+
+[[audits.epaint]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.18.0"
+notes = """
+No unsafe usage or ambient capabilities itself, used in production since 2020.
+
+Written by Emil Ernerfeldt who used to work with us at Embark Studios.
+"""
+
+[[audits.epaint]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+delta = "0.18.0 -> 0.19.0"
+notes = "No unsafe usage and no ambient capabilities"
+
+
+# TODO: uncomment this when an new version with fully defined licenses has been released
+#[[audits.epaint]]
+#who = "Johan Andersson <opensource@embark-studios.com>"
+#criteria = "safe-to-deploy"
+#violation = "*" # TODO: specify new version as cap here
+#notes = "Specified crate license does not include licenses of embedded fonts if using default features or the `default_fonts` feature. Tracked in: https://github.com/emilk/egui/issues/2321"
+
+
+[[audits.emath]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.18.0"
+notes = """
+Math crate with no unsafe usage or ambient capabilities, used in production since 2020.
+
+Written by Emil Ernerfeldt who used to work with us at Embark Studios.
+"""
+
+[[audits.emath]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+delta = "0.18.0 -> 0.19.0"
+notes = "No unsafe usage and no ambient capabilities"
+
+[[audits.egui-winit]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.18.0"
+notes = """
+No unsafe usage, does layer with windowing system (which is the point of the crate). Used in production since 2020.
+Does optionally interact with clipboard, webbrowser, and screen-reader; but through separate crates.
+
+Written by Emil Ernerfeldt who used to work with us at Embark Studios.
+"""
+
+[[audits.egui-winit]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+delta = "0.18.0 -> 0.19.0"
+notes = "Minor sane unsafe usage and no new ambient capabilities"

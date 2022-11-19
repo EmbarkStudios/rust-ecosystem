@@ -162,6 +162,20 @@ criteria = "safe-to-deploy"
 version = "0.30.0"
 notes = "Maintained by the Ark team at Embark"
 
+[[audits.ash-molten]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.12.0+1.1.5"
+notes = """
+Maintained by the Ark team at Embark.
+
+Tiny crate that with sane unsafe usage and no ambient runtime capabilities in the Rust code.
+
+Note it has a complex build setup where it downloads over HTTP a specific a pinned pre-built static binary for the C++ MoltenVK library.
+
+This audit does NOT cover the very large C++ MoltenVK codebase.
+"""
+
 # can't have ranges for pre-releases so have to have a lot of duplication here
 
 [[audits.spirv-std]]

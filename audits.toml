@@ -7,157 +7,157 @@
 # -------------------------------------------
 
 [[audits.ark-api]]
-who = "Johan Andersson <johan@embark-studios.com>"
+who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "0.15.1"
 notes = "Maintained by the Ark team at Embark"
 
 [[audits.ark-api-ffi]]
-who = "Johan Andersson <johan@embark-studios.com>"
+who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "0.15.1"
 notes = "Maintained by the Ark team at Embark"
 
 [[audits.ark-api-macros]]
-who = "Johan Andersson <johan@embark-studios.com>"
+who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "0.10.0"
 notes = "Maintained by the Ark team at Embark"
 
 [[audits.ark-module]]
-who = "Johan Andersson <johan@embark-studios.com>"
+who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "0.15.1"
 notes = "Maintained by the Ark team at Embark"
 
 [[audits.cervo]]
-who = "Johan Andersson <johan@embark-studios.com>"
+who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "0.2.0"
 notes = "Maintained by Embark"
 
 [[audits.cervo-asset]]
-who = "Johan Andersson <johan@embark-studios.com>"
+who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "0.2.0"
 notes = "Maintained by Embark"
 
 [[audits.cervo-core]]
-who = "Johan Andersson <johan@embark-studios.com>"
+who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "0.2.0"
 notes = "Maintained by Embark"
 
 [[audits.cervo-nnef]]
-who = "Johan Andersson <johan@embark-studios.com>"
+who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "0.2.0"
 notes = "Maintained by Embark"
 
 [[audits.cervo-onnx]]
-who = "Johan Andersson <johan@embark-studios.com>"
+who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "0.2.0"
 notes = "Maintained by Embark"
 
 [[audits.egui-ark]]
-who = "Johan Andersson <johan@embark-studios.com>"
+who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "0.36.0"
 notes = "Maintained by the Ark team at Embark"
 
 [[audits.macaw]]
-who = "Johan Andersson <johan@embark-studios.com>"
+who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "0.17.0"
 notes = "Maintained by the Ark team at Embark"
 
 [[audits.perchance]]
-who = "Johan Andersson <johan@embark-studios.com>"
+who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 delta = "0.3.1 -> 0.3.2"
 notes = "Maintained by the Ark team at Embark"
 
 [[audits.physx]]
-who = "Johan Andersson <johan@embark-studios.com>"
+who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "0.13.0"
 notes = "Maintained by the Ark team at Embark"
 
 [[audits.physx]]
-who = "Johan Andersson <johan@embark-studios.com>"
+who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "0.16.0"
 notes = "Maintained by the Ark team at Embark"
 
 [[audits.physx-sys]]
-who = "Johan Andersson <johan@embark-studios.com>"
+who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "0.5.0"
 notes = "Maintained by the Ark team at Embark. Note that this is a unsafe FFI layer on top of a complex C++ library so may be some unknown unsoundness, but we have been using it in games production for a couple of years"
 
 [[audits.physx-sys]]
-who = "Johan Andersson <johan@embark-studios.com>"
+who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "0.8.0"
 notes = "Maintained by the Ark team at Embark. Note that this is a unsafe FFI layer on top of a complex C++ library so may be some unknown unsoundness, but we have been using it in games production for a couple of years"
 
 [[audits.puffin]]
-who = "Johan Andersson <johan@embark-studios.com>"
+who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "0.13.0"
 notes = "Maintained by Embark"
 
 [[audits.puffin]]
-who = "Johan Andersson <johan@embark-studios.com>"
+who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 delta = "0.13.0 -> 0.14.0"
 notes = "Maintained by Embark"
 
 [[audits.puffin-imgui]]
-who = "Johan Andersson <johan@embark-studios.com>"
+who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "0.17.0"
 notes = "Maintained by Embark"
 
 [[audits.puffin-imgui]]
-who = "Johan Andersson <johan@embark-studios.com>"
+who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 delta = "0.17.0 -> 0.18.0"
 notes = "Maintained by Embark"
 
 [[audits.puffin_egui]]
-who = "Johan Andersson <johan@embark-studios.com>"
+who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "0.17.0"
 notes = "Maintained by Embark"
 
 [[audits.puffin_egui]]
-who = "Johan Andersson <johan@embark-studios.com>"
+who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 delta = "0.17.0 -> 0.18.0"
 notes = "Maintained by Embark"
 
 [[audits.puffin_http]]
-who = "Johan Andersson <johan@embark-studios.com>"
+who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "0.11.0"
 notes = "Maintained by Embark"
 
 [[audits.sadness-generator]]
-who = "Johan Andersson <johan@embark-studios.com>"
+who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "0.4.1"
 notes = "Maintained by Embark"
 
 [[audits.sadness-generator]]
-who = "Johan Andersson <johan@embark-studios.com>"
+who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 delta = "0.4.1 -> 0.5.0"
 notes = "Maintained by Embark"
 
 [[audits.saft]]
-who = "Johan Andersson <johan@embark-studios.com>"
+who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "0.30.0"
 notes = "Maintained by the Ark team at Embark"
@@ -165,37 +165,37 @@ notes = "Maintained by the Ark team at Embark"
 # can't have ranges for pre-releases so have to have a lot of duplication here
 
 [[audits.spirv-std]]
-who = "Johan Andersson <johan@embark-studios.com>"
+who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "0.4.0-alpha.14"
 notes = "Maintained by the rust-gpu team at Embark"
 
 [[audits.spirv-std-macros]]
-who = "Johan Andersson <johan@embark-studios.com>"
+who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "0.4.0-alpha.14"
 notes = "Maintained by the rust-gpu team at Embark"
 
 [[audits.spirv-std-types]]
-who = "Johan Andersson <johan@embark-studios.com>"
+who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "0.4.0-alpha.14"
 notes = "Maintained by the rust-gpu team at Embark"
 
 [[audits.spirv-std]]
-who = "Johan Andersson <johan@embark-studios.com>"
+who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "0.4.0-alpha.15"
 notes = "Maintained by the rust-gpu team at Embark"
 
 [[audits.spirv-std-macros]]
-who = "Johan Andersson <johan@embark-studios.com>"
+who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "0.4.0-alpha.15"
 notes = "Maintained by the rust-gpu team at Embark"
 
 [[audits.spirv-std-types]]
-who = "Johan Andersson <johan@embark-studios.com>"
+who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "0.4.0-alpha.15"
 notes = "Maintained by the rust-gpu team at Embark"
@@ -203,25 +203,25 @@ notes = "Maintained by the rust-gpu team at Embark"
 # -----
 
 [[audits.superluminal-perf]]
-who = "Johan Andersson <johan@embark-studios.com>"
+who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "0.1.1"
 notes = "I created and maintain this crate with Embark. It has been stable for 2 years, is for Windows only, and is a thin safe layer over FFI"
 
 [[audits.superluminal-perf-sys]]
-who = "Johan Andersson <johan@embark-studios.com>"
+who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "0.1.2"
 notes = "I created and maintain this crate with Embark. It has been stable for 2 years, It is for Windows only and is an FFI layer over a pre-built static library provided by Superluminal.io"
 
 [[audits.tiny-bench]]
-who = "Johan Andersson <johan@embark-studios.com>"
+who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-run"
 version = "0.1.0"
 notes = "Maintained by Embark"
 
 [[audits.tiny-bench]]
-who = "Johan Andersson <johan@embark-studios.com>"
+who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-run"
 delta = "0.1.0 -> 0.2.0"
 notes = "Maintained by Embark"
@@ -232,111 +232,111 @@ notes = "Maintained by Embark"
 # ------------------------------------------------------------------
 
 [[audits.tinyvec_macros]]
-who = "Johan Andersson <johan@embark-studios.com>"
+who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "0.1.0"
 notes = "Inspected it and is a tiny crate with single safe macro"
 
 [[audits.anyhow]]
-who = "Johan Andersson <johan@embark-studios.com>"
+who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "1.0.58"
 
 [[audits.anyhow]]
-who = "Johan Andersson <johan@embark-studios.com>"
+who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 delta = "1.0.58 -> 1.0.66"
 notes = "New unsafe usage, looks sane. Expert maintainer"
 
 [[audits.cty]]
-who = "Johan Andersson <johan@embark-studios.com>"
+who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "0.2.2"
 notes = "Inspected it and is a tiny crate with just type definitions"
 
 [[audits.natord]]
-who = "Johan Andersson <johan@embark-studios.com>"
+who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "1.0.9"
 notes = "Inspected and it is a tiny crate with no unsafe or system interactions, just string comparisons"
 
 [[audits.pollster]]
-who = "Johan Andersson <johan@embark-studios.com>"
+who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "0.2.5"
 notes = "Inspected it and it is a minimal crate for blocking on futures and does nothing else"
 
 [[audits.serial_test]]
-who = "Johan Andersson <johan@embark-studios.com>"
+who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-run"
 version = "0.6.0"
 
 [[audits.serial_test]]
-who = "Johan Andersson <johan@embark-studios.com>"
+who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-run"
 delta = "0.6.0 -> 0.8.0"
 notes = "No unsafe and ambient capability with lock file creation is not exposed"
 
 [[audits.serial_test_derive]]
-who = "Johan Andersson <johan@embark-studios.com>"
+who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-run"
 version = "0.6.0"
 
 [[audits.uname]]
-who = "Johan Andersson <johan@embark-studios.com>"
+who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "0.1.1"
 notes = "Inspected it and is tiny crate wrapping libc function with some unsafe usage for string handling"
 
 [[audits.webpki-roots]]
-who = "Johan Andersson <johan@embark-studios.com>"
+who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "0.22.4"
 notes = "Inspected it to confirm that it only contains data definitions and no runtime code"
 
 [[audits.rustdoc-json]]
-who = "Johan Andersson <johan@embark-studios.com>"
+who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-run"
 version = "0.6.0"
 notes = "Fairly trivial crate that invokes rustdoc through Cargo, didn't spot any other visible ambient capabilities or unsafe usage"
 
 [[audits.rustdoc-types]]
-who = "Johan Andersson <johan@embark-studios.com>"
+who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-run"
 version = "0.18.0"
 notes = "Contains just data definitions, no unsafe"
 
 [[audits.public-api]]
-who = "Johan Andersson <johan@embark-studios.com>"
+who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-run"
 version = "0.22.0"
 notes = "No unsafe code, does interact with Cargo and launches processes with rustdoc which at a casual inspection looks sane"
 
 [[audits.public-api]]
-who = "Johan Andersson <johan@embark-studios.com>"
+who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-run"
 delta = "0.22.0 -> 0.23.0"
 
 [[audits.strum]]
-who = "Johan Andersson <johan@embark-studios.com>"
+who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "0.24.1"
 notes = "Tiny layer on top of the proc macro crate, found no unsafe or system usage"
 
 [[audits.mimalloc]]
-who = "Johan Andersson <johan@embark-studios.com>"
+who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "0.1.31"
 notes = "Inspected it and it is a tiny crate implementing allocator wrapping a the allocator C++ sys crate but with simple unsafe code that looks sound"
 
 [[audits.nohash-hasher]]
-who = "Johan Andersson <johan@embark-studios.com>"
+who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "0.2.0"
 notes = "Tiny crate with no dependencies, no unsafe, and no ambient capabilities"
 
 [[audits.dolly]]
-who = "Johan Andersson <johan@embark-studios.com>"
+who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "0.3.1"
 notes = """
@@ -346,19 +346,19 @@ Written by Tomasz Stachowiak as side-project while employed with us at Embark St
 """
 
 [[audits.similar-asserts]]
-who = "Johan Andersson <johan@embark-studios.com>"
+who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "1.2.0"
 notes = "Small crate with no unsafe or ambient capabilities"
 
 [[audits.cap-std]]
-who = "Johan Andersson <johan@embark-studios.com>"
+who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 delta = "0.26.0 -> 0.26.1"
 notes = "No changes, only version bump"
 
 [[audits.ndk-context]]
-who = "Johan Andersson <johan@embark-studios.com>"
+who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "0.1.1"
 notes = "Tiny crate that initializes Android with FFI, looks sane. No other ambient capabilities"

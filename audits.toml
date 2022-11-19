@@ -374,6 +374,12 @@ No unsafe usage or ambient capabilities itself, used in production since 2020.
 Written by Emil Ernerfeldt who used to work with us at Embark Studios.
 """
 
+[[audits.egui]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+delta = "0.18.0 -> 0.19.0"
+notes = "No unsafe usage and no ambient capabilities"
+
 [[audits.epaint]]
 who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
@@ -383,6 +389,13 @@ No unsafe usage or ambient capabilities itself, used in production since 2020.
 
 Written by Emil Ernerfeldt who used to work with us at Embark Studios.
 """
+
+[[audits.epaint]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+delta = "0.18.0 -> 0.19.0"
+notes = "No unsafe usage and no ambient capabilities"
+
 
 # TODO: uncomment this when an new version with fully defined licenses has been released
 #[[audits.epaint]]
@@ -402,13 +415,25 @@ Math crate with no unsafe usage or ambient capabilities, used in production sinc
 Written by Emil Ernerfeldt who used to work with us at Embark Studios.
 """
 
+[[audits.emath]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+delta = "0.18.0 -> 0.19.0"
+notes = "No unsafe usage and no ambient capabilities"
+
 [[audits.egui-winit]]
 who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "0.18.0"
 notes = """
-No unsafe usage or ambient capabilities itself, used in production since 2020.
-Does interact with clipboard, but through separate crate.
+No unsafe usage, does layer with windowing system (which is the point of the crate). Used in production since 2020.
+Does optionally interact with clipboard, webbrowser, and screen-reader; but through separate crates.
 
 Written by Emil Ernerfeldt who used to work with us at Embark Studios.
 """
+
+[[audits.egui-winit]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+delta = "0.18.0 -> 0.19.0"
+notes = "Minor sane unsafe usage and no new ambient capabilities"

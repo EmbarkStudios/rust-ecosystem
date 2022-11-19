@@ -176,6 +176,97 @@ Note it has a complex build setup where it downloads over HTTP a specific a pinn
 This audit does NOT cover the very large C++ MoltenVK codebase.
 """
 
+[[audits.cfg-expr]]
+who = "Jake Shadle <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.12.0"
+notes = "Maintained by Embark"
+
+[[audits.crash-context]]
+who = "Jake Shadle <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.5.1"
+notes = "Maintained by Embark"
+
+[[audits.crash-handler]]
+who = "Jake Shadle <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.5.1"
+notes = "Maintained by Embark"
+
+[[audits.discord-sdk]]
+who = "Jake Shadle <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.3.0"
+notes = "Maintained by Embark"
+
+[[audits.krates]]
+who = "Jake Shadle <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.12.5"
+notes = "Maintained by Embark"
+
+[[audits.minidumper]]
+who = "Jake Shadle <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.7.0"
+notes = "Maintained by Embark"
+
+[[audits.rymder]]
+who = "Jake Shadle <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.5.0"
+notes = "Maintained by Embark"
+
+[[audits.spdx]]
+who = "Jake Shadle <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.9.0"
+notes = "Maintained by Embark"
+
+[[audits.tame-gcs]]
+who = "Jake Shadle <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.12.0"
+notes = "Maintained by Embark"
+
+[[audits.tame-oauth]]
+who = "Jake Shadle <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.7.0"
+notes = "Maintained by Embark"
+
+[[audits.tame-oidc]]
+who = "Jake Shadle <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.6.0"
+notes = "Maintained by Embark"
+
+[[audits.tracing-ext-ffi-subscriber]]
+who = "Tom Olsson <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.1.0"
+notes = "Maintained by Embark"
+
+[[audits.tracing-logfmt]]
+who = "Fredrik Enestad <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.2.0"
+notes = "Maintained by Embark"
+
+[[audits.tracing-logfmt]]
+who = "David Pedersen <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.5.0"
+notes = "Maintained by Embark"
+
+[[audits.tryhard]]
+who = "David Pedersen <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.5.0"
+notes = "Maintained by Embark"
+
+
 # can't have ranges for pre-releases so have to have a lot of duplication here
 
 [[audits.spirv-std]]

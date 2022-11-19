@@ -346,7 +346,7 @@ delta = "0.26.0 -> 0.26.1"
 notes = "No changes, only version bump"
 
 [[audits.ndk-context]]
-who = "Johan Andersson <repi@repi.se>"
+who = "Johan Andersson <johan@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "0.1.1"
 notes = "Tiny crate that initializes Android with FFI, looks sane. No other ambient capabilities"

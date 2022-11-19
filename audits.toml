@@ -274,3 +274,9 @@ notes = "No unsafe code, does interact with Cargo and launches processes with ru
 who = "Johan Andersson <johan@embark-studios.com>"
 criteria = "safe-to-run"
 delta = "0.22.0 -> 0.23.0"
+
+[[audits.strum]]
+who = "Johan Andersson <johan@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.24.1"
+notes = "Tiny layer on top of the proc macro crate, found no unsafe or system usage"

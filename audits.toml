@@ -242,6 +242,12 @@ who = "Johan Andersson <johan@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "1.0.58"
 
+[[audits.anyhow]]
+who = "Johan Andersson <johan@embark-studios.com>"
+criteria = "safe-to-deploy"
+delta = "1.0.58 -> 1.0.66"
+notes = "New unsafe usage, looks sane. Expert maintainer"
+
 [[audits.cty]]
 who = "Johan Andersson <johan@embark-studios.com>"
 criteria = "safe-to-deploy"

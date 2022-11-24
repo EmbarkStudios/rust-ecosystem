@@ -214,6 +214,24 @@ criteria = "safe-to-deploy"
 version = "0.4.0-alpha.15"
 notes = "Maintained by the rust-gpu team at Embark"
 
+[[audits.spirv-std]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.4.0-alpha.17"
+notes = "Maintained by the rust-gpu team at Embark"
+
+[[audits.spirv-std-macros]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.4.0-alpha.17"
+notes = "Maintained by the rust-gpu team at Embark"
+
+[[audits.spirv-std-types]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.4.0-alpha.17"
+notes = "Maintained by the rust-gpu team at Embark"
+
 # -----
 
 [[audits.superluminal-perf]]

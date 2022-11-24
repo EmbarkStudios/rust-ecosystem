@@ -332,6 +332,11 @@ criteria = "safe-to-run"
 version = "0.6.0"
 notes = "Fairly trivial crate that invokes rustdoc through Cargo, didn't spot any other visible ambient capabilities or unsafe usage"
 
+[[audits.rustdoc-json]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-run"
+delta = "0.6.0 -> 0.7.0"
+
 [[audits.rustdoc-types]]
 who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-run"

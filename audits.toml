@@ -33,31 +33,31 @@ notes = "Maintained by the Ark team at Embark"
 [[audits.cervo]]
 who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
-version = "0.2.0"
+version = "0.4.0"
 notes = "Maintained by Embark"
 
 [[audits.cervo-asset]]
 who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
-version = "0.2.0"
+version = "0.4.0"
 notes = "Maintained by Embark"
 
 [[audits.cervo-core]]
 who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
-version = "0.2.0"
+version = "0.4.0"
 notes = "Maintained by Embark"
 
 [[audits.cervo-nnef]]
 who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
-version = "0.2.0"
+version = "0.4.0"
 notes = "Maintained by Embark"
 
 [[audits.cervo-onnx]]
 who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
-version = "0.2.0"
+version = "0.4.0"
 notes = "Maintained by Embark"
 
 [[audits.egui-ark]]

@@ -114,17 +114,6 @@ and used in production.
 """
 
 [[audits.puffin]]
-who = "Gray Olson <opensource@embark-studios.com>"
-criteria = "safe-to-deploy"
-version = "0.13.0"
-notes = """
-Small crate with no dependencies and no ambient capabilities. The safe interface of the crate
-is gated behind unsafe implementation of a core trait, and care must be taken to ensure that
-the relevant invariants are guaranteed when doing so. Maintained by the Ark team at Embark
-and used in production.
-"""
-
-[[audits.puffin]]
 who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "0.13.0"

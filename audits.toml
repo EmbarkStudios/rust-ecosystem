@@ -102,10 +102,10 @@ criteria = "safe-to-deploy"
 version = "0.8.0"
 notes = "Maintained by the Ark team at Embark. Note that this is a unsafe FFI layer on top of a complex C++ library so may be some unknown unsoundness, but we have been using it in games production for a couple of years"
 
-[[audits.puffin]]
+[[audits.presser]]
 who = "Gray Olson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
-version = "0.13.0"
+version = "0.3.1"
 notes = """
 Small crate with no dependencies and no ambient capabilities. The safe interface of the crate
 is gated behind unsafe implementation of a core trait, and care must be taken to ensure that

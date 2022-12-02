@@ -497,3 +497,9 @@ who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 delta = "0.18.0 -> 0.19.0"
 notes = "Minor sane unsafe usage and no new ambient capabilities"
+
+[[audits.raw-window-handle]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+delta = "0.4.3 -> 0.5.0"
+notes = "No new unsafe usage or ambient capabilities"

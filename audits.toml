@@ -283,6 +283,12 @@ criteria = "safe-to-deploy"
 version = "0.1.1"
 notes = "I created and maintain this crate with Embark. It has been stable for 2 years, is for Windows only, and is a thin safe layer over FFI"
 
+[[audits.superluminal-perf]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+delta = "0.1.1 -> 0.2.0"
+notes = "I created and maintain this crate with Embark. It has been stable for 2 years, is for Windows only, and is a thin safe layer over FFI"
+
 [[audits.superluminal-perf-sys]]
 who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"

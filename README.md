@@ -35,6 +35,7 @@ Name | Description | Crates.io
 🚙 [`gsutil`](https://github.com/EmbarkStudios/gsutil) | A small, incomplete replacement for the official gsutil | [![Latest version](https://img.shields.io/crates/v/gsutil.svg)](https://crates.io/crates/gsutil)
 💡 [`kajiya`](https://github.com/EmbarkStudios/kajiya) | Experimental real-time global illumination renderer
 📦 [`krates`](https://github.com/EmbarkStudios/krates) | Creates graphs of crates from cargo metadata | [![Latest version](https://img.shields.io/crates/v/krates.svg)](https://crates.io/crates/krates)
+🪞 [`mirror-mirror`](https://github.com/EmbarkStudios/mirror-mirror) | Powerful reflection library for Rust | [![Latest version](https://img.shields.io/crates/v/mirror-mirror.svg)](https://crates.io/crates/mirror-mirror)
 🆙 [`octobors`](https://github.com/EmbarkStudios/octobors) | GitHub action for automerging PRs based on a few rules
 🎳 [`physx`](https://github.com/EmbarkStudios/physx-rs) | Use [NVIDIA PhysX](https://github.com/NVIDIAGameWorks/PhysX) in Rust | [![Latest version](https://img.shields.io/crates/v/physx.svg)](https://crates.io/crates/physx)
 ⌛ [`poll-promise`](https://github.com/EmbarkStudios/poll-promise) | A Rust promise for games and immediate mode GUIs | [![Latest version](https://img.shields.io/crates/v/poll-promise.svg)](https://crates.io/crates/poll-promise)

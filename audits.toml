@@ -219,6 +219,24 @@ criteria = "safe-to-deploy"
 version = "0.4.0"
 notes = "Maintained by the rust-gpu team at Embark"
 
+[[audits.spirv-std]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.5.0"
+notes = "Maintained by the rust-gpu team at Embark"
+
+[[audits.spirv-std-macros]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.5.0"
+notes = "Maintained by the rust-gpu team at Embark"
+
+[[audits.spirv-std-types]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.5.0"
+notes = "Maintained by the rust-gpu team at Embark"
+
 # can't have ranges for pre-releases so have to have a lot of duplication here
 
 [[audits.spirv-std]]

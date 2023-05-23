@@ -191,7 +191,15 @@ end = "2024-05-23"
 notes = "Maintained by Embark"
 
 [[wildcard-audits.saft]]
-who = "Johan Andersson <opensource@embark-studios.com>"
+who = "Niklas Nummelin <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+user-id = 52553
+start = "2021-01-01"
+end = "2024-05-23"
+notes = "Maintained by the Ark team at Embark"
+
+[[wildcard-audits.saft-sdf]]
+who = "Niklas Nummelin <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 user-id = 52553
 start = "2021-01-01"

@@ -354,6 +354,12 @@ criteria = "safe-to-run"
 version = "0.18.0"
 notes = "Contains just data definitions, no unsafe"
 
+[[audits.rustdoc-types]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-run"
+delta = "0.18.0 -> 0.20.0"
+notes = "Contains just data definitions, no unsafe"
+
 [[audits.public-api]]
 who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-run"

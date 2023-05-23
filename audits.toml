@@ -86,6 +86,17 @@ start = "2021-01-01"
 end = "2024-05-23"
 notes = "Maintained by the Ark team at Embark"
 
+[[wildcard-audits.kollect]]
+who = "Gray Olson <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+user-id = 52553
+start = "2021-01-01"
+end = "2024-05-23"
+notes = """
+Maintained by the Ark team at Embark.
+Small crate with no dependencies and no ambient capabilities.
+"""
+
 [[wildcard-audits.macaw]]
 who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"

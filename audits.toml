@@ -262,6 +262,14 @@ start = "2021-01-01"
 end = "2024-05-23"
 notes = "Maintained by Embark"
 
+[[wildcard-audits.tryhard]]
+who = "David Pedersen <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+user-id = 52553
+start = "2021-01-01"
+end = "2024-05-23"
+notes = "Maintained by Embark. No unsafe usage or ambient capabilities"
+
 # ------------------------------------------------------------------
 # third party crates we've done at least light audit / inspection of 
 # ------------------------------------------------------------------

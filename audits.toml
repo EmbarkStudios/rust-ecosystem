@@ -346,7 +346,7 @@ notes = "Fairly trivial crate that invokes rustdoc through Cargo, didn't spot an
 [[audits.rustdoc-json]]
 who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-run"
-delta = "0.6.0 -> 0.7.0"
+delta = "0.6.0 -> 0.8.3"
 
 [[audits.rustdoc-types]]
 who = "Johan Andersson <opensource@embark-studios.com>"

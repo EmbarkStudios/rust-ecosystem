@@ -6,106 +6,124 @@
 # our own crates that we develop and maintain
 # -------------------------------------------
 
-[[audits.ark-api]]
+[[wildcard-audits.ark-api]]
 who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
-version = "0.15.1"
+user-id = 52553
+start = "2021-01-01"
+end = "2024-05-23"
 notes = "Maintained by the Ark team at Embark"
 
-[[audits.ark-api-ffi]]
+[[wildcard-audits.ark-api-ffi]]
 who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
-version = "0.15.1"
+user-id = 52553
+start = "2021-01-01"
+end = "2024-05-23"
 notes = "Maintained by the Ark team at Embark"
 
-[[audits.ark-api-macros]]
+[[wildcard-audits.ark-api-macros]]
 who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
-version = "0.10.0"
+user-id = 52553
+start = "2021-01-01"
+end = "2024-05-23"
 notes = "Maintained by the Ark team at Embark"
 
-[[audits.ark-module]]
+[[wildcard-audits.ark-module]]
 who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
-version = "0.15.1"
+user-id = 52553
+start = "2021-01-01"
+end = "2024-05-23"
 notes = "Maintained by the Ark team at Embark"
 
-[[audits.cervo]]
-who = "Johan Andersson <opensource@embark-studios.com>"
+[[wildcard-audits.cervo]]
+who = "Tom Solberg <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
-version = "0.4.0"
+user-id = 52553
+start = "2021-01-01"
+end = "2024-05-23"
 notes = "Maintained by Embark"
 
-[[audits.cervo-asset]]
-who = "Johan Andersson <opensource@embark-studios.com>"
+[[wildcard-audits.cervo-asset]]
+who = "Tom Solberg <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
-version = "0.4.0"
+user-id = 52553
+start = "2021-01-01"
+end = "2024-05-23"
 notes = "Maintained by Embark"
 
-[[audits.cervo-core]]
-who = "Johan Andersson <opensource@embark-studios.com>"
+[[wildcard-audits.cervo-core]]
+who = "Tom Solberg <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
-version = "0.4.0"
+user-id = 52553
+start = "2021-01-01"
+end = "2024-05-23"
 notes = "Maintained by Embark"
 
-[[audits.cervo-nnef]]
-who = "Johan Andersson <opensource@embark-studios.com>"
+[[wildcard-audits.cervo-nnef]]
+who = "Tom Solberg <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
-version = "0.4.0"
+user-id = 52553
+start = "2021-01-01"
+end = "2024-05-23"
 notes = "Maintained by Embark"
 
-[[audits.cervo-onnx]]
-who = "Johan Andersson <opensource@embark-studios.com>"
+[[wildcard-audits.cervo-onnx]]
+who = "Tom Solberg <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
-version = "0.4.0"
+user-id = 52553
+start = "2021-01-01"
+end = "2024-05-23"
 notes = "Maintained by Embark"
 
-[[audits.egui-ark]]
+[[wildcard-audits.egui-ark]]
 who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
-version = "0.36.0"
+user-id = 52553
+start = "2021-01-01"
+end = "2024-05-23"
 notes = "Maintained by the Ark team at Embark"
 
-[[audits.macaw]]
+[[wildcard-audits.macaw]]
 who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
-version = "0.17.0"
+user-id = 52553
+start = "2021-01-01"
+end = "2024-05-23"
 notes = "Maintained by the Ark team at Embark"
 
-[[audits.perchance]]
+[[wildcard-audits.perchance]]
 who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
-delta = "0.3.1 -> 0.4.0"
+user-id = 52553
+start = "2021-01-01"
+end = "2024-05-23"
 notes = "Maintained by the Ark team at Embark"
 
-[[audits.physx]]
-who = "Johan Andersson <opensource@embark-studios.com>"
+[[wildcard-audits.physx]]
+who = "Tom Solberg <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
-version = "0.13.0"
+user-id = 52553
+start = "2021-01-01"
+end = "2024-05-23"
 notes = "Maintained by the Ark team at Embark"
 
-[[audits.physx]]
-who = "Johan Andersson <opensource@embark-studios.com>"
+[[wildcard-audits.physx-sys]]
+who = "Tom Solberg <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
-version = "0.16.0"
-notes = "Maintained by the Ark team at Embark"
-
-[[audits.physx-sys]]
-who = "Johan Andersson <opensource@embark-studios.com>"
-criteria = "safe-to-deploy"
-version = "0.5.0"
+user-id = 52553
+start = "2021-01-01"
+end = "2024-05-23"
 notes = "Maintained by the Ark team at Embark. Note that this is a unsafe FFI layer on top of a complex C++ library so may be some unknown unsoundness, but we have been using it in games production for a couple of years"
 
-[[audits.physx-sys]]
-who = "Johan Andersson <opensource@embark-studios.com>"
-criteria = "safe-to-deploy"
-version = "0.8.0"
-notes = "Maintained by the Ark team at Embark. Note that this is a unsafe FFI layer on top of a complex C++ library so may be some unknown unsoundness, but we have been using it in games production for a couple of years"
-
-[[audits.presser]]
+[[wildcard-audits.presser]]
 who = "Gray Olson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
-version = "0.3.1"
+user-id = 52553
+start = "2021-01-01"
+end = "2024-05-23"
 notes = """
 Small crate with no dependencies and no ambient capabilities. The safe interface of the crate
 is gated behind unsafe implementation of a core trait, and care must be taken to ensure that
@@ -113,74 +131,68 @@ the relevant invariants are guaranteed when doing so. Maintained by the Ark team
 and used in production.
 """
 
-[[audits.puffin]]
-who = "Johan Andersson <opensource@embark-studios.com>"
-criteria = "safe-to-deploy"
-version = "0.13.0"
-notes = "Maintained by Embark"
-
-[[audits.puffin]]
-who = "Johan Andersson <opensource@embark-studios.com>"
-criteria = "safe-to-deploy"
-delta = "0.13.0 -> 0.14.0"
-notes = "Maintained by Embark"
-
-[[audits.puffin-imgui]]
-who = "Johan Andersson <opensource@embark-studios.com>"
-criteria = "safe-to-deploy"
-version = "0.17.0"
-notes = "Maintained by Embark"
-
-[[audits.puffin-imgui]]
-who = "Johan Andersson <opensource@embark-studios.com>"
-criteria = "safe-to-deploy"
-delta = "0.17.0 -> 0.18.0"
-notes = "Maintained by Embark"
-
-[[audits.puffin_egui]]
-who = "Johan Andersson <opensource@embark-studios.com>"
-criteria = "safe-to-deploy"
-version = "0.17.0"
-notes = "Maintained by Embark"
-
-[[audits.puffin_egui]]
-who = "Johan Andersson <opensource@embark-studios.com>"
-criteria = "safe-to-deploy"
-delta = "0.17.0 -> 0.18.0"
-notes = "Maintained by Embark"
-
-[[audits.puffin_http]]
-who = "Johan Andersson <opensource@embark-studios.com>"
-criteria = "safe-to-deploy"
-version = "0.11.0"
-notes = "Maintained by Embark"
-
-[[wildcard-audits.rymder]]
+[[wildcard-audits.puffin]]
 who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 user-id = 52553
-start = "2021-08-23"
+start = "2021-01-01"
+end = "2024-05-23"
+notes = "Maintained by Embark & emilk"
+
+[[wildcard-audits.puffin-imgui]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+user-id = 52553
+start = "2021-01-01"
+end = "2024-05-23"
+notes = "Maintained by Embark & emilk"
+
+[[wildcard-audits.puffin_egui]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+user-id = 52553
+start = "2021-01-01"
+end = "2024-05-23"
+notes = "Maintained by Embark & emilk"
+
+[[wildcard-audits.puffin_http]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+user-id = 52553
+start = "2021-01-01"
+end = "2024-05-23"
+notes = "Maintained by Embark & emilk"
+
+[[wildcard-audits.rymder]]
+who = "Jake Shadle <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+user-id = 52553
+start = "2021-01-01"
 end = "2024-05-23"
 notes = "Maintained by Embark"
 
 [[wildcard-audits.sadness-generator]]
-who = "Johan Andersson <opensource@embark-studios.com>"
+who = "Jake Shadle <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 user-id = 52553
-start = "2021-08-23"
+start = "2021-01-01"
 end = "2024-05-23"
 notes = "Maintained by Embark"
 
-[[audits.saft]]
+[[wildcard-audits.saft]]
 who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
-version = "0.30.0"
+user-id = 52553
+start = "2021-01-01"
+end = "2024-05-23"
 notes = "Maintained by the Ark team at Embark"
 
-[[audits.ash-molten]]
+[[wildcard-audits.ash-molten]]
 who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
-version = "0.12.0+1.1.5"
+user-id = 52553
+start = "2021-01-01"
+end = "2024-05-23"
 notes = """
 Maintained by the Ark team at Embark.
 
@@ -191,144 +203,53 @@ Note it has a complex build setup where it downloads over HTTP a specific a pinn
 This audit does NOT cover the very large C++ MoltenVK codebase.
 """
 
-[[audits.ash-molten]]
-who = "Johan Andersson <opensource@embark-studios.com>"
+[[wildcard-audits.spirv-std]]
+who = "eddyb <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
-version = "0.14.0+1.1.10"
-notes = """
-Maintained by the Ark team at Embark.
-
-Tiny crate that with sane unsafe usage and no ambient runtime capabilities in the Rust code.
-
-Note it has a complex build setup where it downloads over HTTP a specific a pinned pre-built static binary for the C++ MoltenVK library.
-
-This audit does NOT cover the very large C++ MoltenVK codebase.
-"""
-
-[[audits.spirv-std]]
-who = "Johan Andersson <opensource@embark-studios.com>"
-criteria = "safe-to-deploy"
-version = "0.4.0"
+user-id = 52553
+start = "2021-01-01"
+end = "2024-05-23"
 notes = "Maintained by the rust-gpu team at Embark"
 
-[[audits.spirv-std-macros]]
-who = "Johan Andersson <opensource@embark-studios.com>"
+[[wildcard-audits.spirv-std-macros]]
+who = "eddyb <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
-version = "0.4.0"
+user-id = 52553
+start = "2021-01-01"
+end = "2024-05-23"
 notes = "Maintained by the rust-gpu team at Embark"
 
-[[audits.spirv-std-types]]
-who = "Johan Andersson <opensource@embark-studios.com>"
+[[wildcard-audits.spirv-std-types]]
+who = "eddyb <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
-version = "0.4.0"
+user-id = 52553
+start = "2021-01-01"
+end = "2024-05-23"
 notes = "Maintained by the rust-gpu team at Embark"
 
-[[audits.spirv-std]]
+[[wildcard-audits.wildcard-superluminal-perf]]
 who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
-version = "0.5.0"
-notes = "Maintained by the rust-gpu team at Embark"
-
-[[audits.spirv-std-macros]]
-who = "Johan Andersson <opensource@embark-studios.com>"
-criteria = "safe-to-deploy"
-version = "0.5.0"
-notes = "Maintained by the rust-gpu team at Embark"
-
-[[audits.spirv-std-types]]
-who = "Johan Andersson <opensource@embark-studios.com>"
-criteria = "safe-to-deploy"
-version = "0.5.0"
-notes = "Maintained by the rust-gpu team at Embark"
-
-# can't have ranges for pre-releases so have to have a lot of duplication here
-
-[[audits.spirv-std]]
-who = "Johan Andersson <opensource@embark-studios.com>"
-criteria = "safe-to-deploy"
-version = "0.4.0-alpha.14"
-notes = "Maintained by the rust-gpu team at Embark"
-
-[[audits.spirv-std-macros]]
-who = "Johan Andersson <opensource@embark-studios.com>"
-criteria = "safe-to-deploy"
-version = "0.4.0-alpha.14"
-notes = "Maintained by the rust-gpu team at Embark"
-
-[[audits.spirv-std-types]]
-who = "Johan Andersson <opensource@embark-studios.com>"
-criteria = "safe-to-deploy"
-version = "0.4.0-alpha.14"
-notes = "Maintained by the rust-gpu team at Embark"
-
-[[audits.spirv-std]]
-who = "Johan Andersson <opensource@embark-studios.com>"
-criteria = "safe-to-deploy"
-version = "0.4.0-alpha.15"
-notes = "Maintained by the rust-gpu team at Embark"
-
-[[audits.spirv-std-macros]]
-who = "Johan Andersson <opensource@embark-studios.com>"
-criteria = "safe-to-deploy"
-version = "0.4.0-alpha.15"
-notes = "Maintained by the rust-gpu team at Embark"
-
-[[audits.spirv-std-types]]
-who = "Johan Andersson <opensource@embark-studios.com>"
-criteria = "safe-to-deploy"
-version = "0.4.0-alpha.15"
-notes = "Maintained by the rust-gpu team at Embark"
-
-[[audits.spirv-std]]
-who = "Johan Andersson <opensource@embark-studios.com>"
-criteria = "safe-to-deploy"
-version = "0.4.0-alpha.17"
-notes = "Maintained by the rust-gpu team at Embark"
-
-[[audits.spirv-std-macros]]
-who = "Johan Andersson <opensource@embark-studios.com>"
-criteria = "safe-to-deploy"
-version = "0.4.0-alpha.17"
-notes = "Maintained by the rust-gpu team at Embark"
-
-[[audits.spirv-std-types]]
-who = "Johan Andersson <opensource@embark-studios.com>"
-criteria = "safe-to-deploy"
-version = "0.4.0-alpha.17"
-notes = "Maintained by the rust-gpu team at Embark"
-
-# -----
-
-[[audits.superluminal-perf]]
-who = "Johan Andersson <opensource@embark-studios.com>"
-criteria = "safe-to-deploy"
-version = "0.1.1"
+user-id = 52553
+start = "2021-01-01"
+end = "2024-05-23"
 notes = "I created and maintain this crate with Embark. It has been stable for 2 years, is for Windows only, and is a thin safe layer over FFI"
 
-[[audits.superluminal-perf]]
+[[wildcard-audits.superluminal-perf-sys]]
 who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
-delta = "0.1.1 -> 0.2.0"
-notes = "I created and maintain this crate with Embark. It has been stable for 2 years, is for Windows only, and is a thin safe layer over FFI"
-
-[[audits.superluminal-perf-sys]]
-who = "Johan Andersson <opensource@embark-studios.com>"
-criteria = "safe-to-deploy"
-version = "0.1.2"
+user-id = 52553
+start = "2021-01-01"
+end = "2024-05-23"
 notes = "I created and maintain this crate with Embark. It has been stable for 2 years, It is for Windows only and is an FFI layer over a pre-built static library provided by Superluminal.io"
 
-[[audits.tiny-bench]]
-who = "Johan Andersson <opensource@embark-studios.com>"
+[[wildcard-audits.tiny-bench]]
+who = "Marcus Grass <opensource@embark-studios.com>"
 criteria = "safe-to-run"
-version = "0.1.0"
+user-id = 52553
+start = "2021-01-01"
+end = "2024-05-23"
 notes = "Maintained by Embark"
-
-[[audits.tiny-bench]]
-who = "Johan Andersson <opensource@embark-studios.com>"
-criteria = "safe-to-run"
-delta = "0.1.0 -> 0.2.0"
-notes = "Maintained by Embark"
-
 
 # ------------------------------------------------------------------
 # third party crates we've done at least light audit / inspection of 

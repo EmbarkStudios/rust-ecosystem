@@ -238,7 +238,7 @@ start = "2021-01-01"
 end = "2024-05-23"
 notes = "Maintained by the rust-gpu team at Embark"
 
-[[wildcard-audits.wildcard-superluminal-perf]]
+[[wildcard-audits.superluminal-perf]]
 who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 user-id = 52553

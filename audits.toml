@@ -155,16 +155,20 @@ criteria = "safe-to-deploy"
 version = "0.11.0"
 notes = "Maintained by Embark"
 
-[[audits.sadness-generator]]
+[[wildcard-audits.rymder]]
 who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
-version = "0.4.1"
+user-id = 52553
+start = "2021-08-23"
+end = "2024-05-23"
 notes = "Maintained by Embark"
 
-[[audits.sadness-generator]]
+[[wildcard-audits.sadness-generator]]
 who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
-delta = "0.4.1 -> 0.5.0"
+user-id = 52553
+start = "2021-08-23"
+end = "2024-05-23"
 notes = "Maintained by Embark"
 
 [[audits.saft]]

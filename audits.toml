@@ -244,15 +244,15 @@ criteria = "safe-to-deploy"
 user-id = 52553
 start = "2021-01-01"
 end = "2024-05-23"
-notes = "I created and maintain this crate with Embark. It has been stable for 2 years, is for Windows only, and is a thin safe layer over FFI"
+notes = "I created and maintain this crate with Embark. It has been stable for 3 years, is for Windows only, and is a thin safe layer over FFI"
 
 [[wildcard-audits.superluminal-perf-sys]]
 who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 user-id = 52553
-start = "2021-01-01"
+start = "2020-01-01"
 end = "2024-05-23"
-notes = "I created and maintain this crate with Embark. It has been stable for 2 years, It is for Windows only and is an FFI layer over a pre-built static library provided by Superluminal.io"
+notes = "I created and maintain this crate with Embark. It has been stable for 3 years, It is for Windows only and is an FFI layer over a pre-built static library provided by Superluminal.io"
 
 [[wildcard-audits.tiny-bench]]
 who = "Marcus Grass <opensource@embark-studios.com>"

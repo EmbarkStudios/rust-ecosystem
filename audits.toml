@@ -516,3 +516,15 @@ who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 delta = "0.4.3 -> 0.5.0"
 notes = "No new unsafe usage or ambient capabilities"
+
+[[audits.thiserror]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "1.0.30"
+notes = "Wrapper over implementation crate, found no unsafe or ambient capabilities used"
+
+[[audits.thiserror-impl]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "1.0.30"
+notes = "Found no unsafe or ambient capabilities used"

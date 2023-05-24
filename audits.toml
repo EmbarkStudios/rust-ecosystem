@@ -520,11 +520,17 @@ notes = "No new unsafe usage or ambient capabilities"
 [[audits.thiserror]]
 who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
-version = "1.0.30"
+version = "1.0.40"
 notes = "Wrapper over implementation crate, found no unsafe or ambient capabilities used"
 
 [[audits.thiserror-impl]]
 who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
-version = "1.0.30"
+version = "1.0.40"
 notes = "Found no unsafe or ambient capabilities used"
+
+[[audits.headers]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.3.8"
+notes = "HTTP type definitions. Single sound unsafe usage, no ambient capabilities used"

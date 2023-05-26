@@ -540,3 +540,9 @@ who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "0.4.0"
 notes = "No unsafe usage or ambient capabilities"
+
+[[audits.sentry-types]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.30.0"
+notes = "Type definitions. No unsafe usage, can read files but only based on user-provided paths, no other ambient capabilities"

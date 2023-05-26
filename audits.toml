@@ -278,6 +278,14 @@ start = "2021-01-01"
 end = "2024-05-23"
 notes = "Maintained by Embark"
 
+[[wildcard-audits.tracing-logfmt]]
+who = "Fredrik Enestad <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+user-id = 52553
+start = "2021-01-01"
+end = "2024-05-23"
+notes = "Maintained by Embark. No unsafe or ambient capabilities"
+
 [[wildcard-audits.tryhard]]
 who = "David Pedersen <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"

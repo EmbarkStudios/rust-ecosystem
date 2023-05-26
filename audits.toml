@@ -262,6 +262,14 @@ start = "2020-01-01"
 end = "2024-05-23"
 notes = "I created and maintain this crate with Embark. It has been stable for 3 years, It is for Windows only and is an FFI layer over a pre-built static library provided by Superluminal.io"
 
+[[wildcard-audits.tame-webpurify]]
+who = "Mathias Tervo <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+user-id = 52553
+start = "2021-01-01"
+end = "2024-05-23"
+notes = "Maintained by Embark. sans-io network types for service, no unsafe or ambient capabilities"
+
 [[wildcard-audits.tiny-bench]]
 who = "Marcus Grass <opensource@embark-studios.com>"
 criteria = "safe-to-run"

@@ -485,24 +485,6 @@ criteria = "safe-to-deploy"
 delta = "0.18.0 -> 0.19.0"
 notes = "No unsafe usage and no ambient capabilities"
 
-[[audits.epaint]]
-who = "Johan Andersson <opensource@embark-studios.com>"
-criteria = "safe-to-deploy"
-version = "0.18.0"
-notes = """
-No unsafe usage or ambient capabilities itself, used in production since 2020.
-
-Written by Emil Ernerfeldt who used to work with us at Embark Studios.
-"""
-
-[[audits.epaint]]
-who = "Johan Andersson <opensource@embark-studios.com>"
-criteria = "safe-to-deploy"
-delta = "0.18.0 -> 0.19.0"
-notes = "No unsafe usage and no ambient capabilities"
-
-
-# TODO: uncomment this when an new version with fully defined licenses has been released
 #[[audits.epaint]]
 #who = "Johan Andersson <opensource@embark-studios.com>"
 #criteria = "safe-to-deploy"

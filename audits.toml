@@ -603,3 +603,9 @@ who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "0.17.8"
 notes = "Forbids unsafe, no ambient capabilities"
+
+[[audits.vec1]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "1.10.1"
+notes = "No unsafe usage or ambient capabilities"

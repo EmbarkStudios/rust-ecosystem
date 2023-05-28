@@ -609,3 +609,9 @@ who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "1.10.1"
 notes = "No unsafe usage or ambient capabilities"
+
+[[audits.rspirv-reflect]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.8.0"
+notes = "No unsafe usage or ambient capabilities"

@@ -431,7 +431,12 @@ delta = "0.22.0 -> 0.23.0"
 [[audits.public-api]]
 who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-run"
-delta = "0.23.0 -> 0.29.1"
+delta = "0.23.0 -> 0.26.0"
+
+[[audits.public-api]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-run"
+delta = "0.26.0 -> 0.29.1"
 
 [[audits.strum]]
 who = "Johan Andersson <opensource@embark-studios.com>"

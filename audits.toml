@@ -621,3 +621,9 @@ who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "0.11.0+1.5.4"
 notes = "Single sound unsafe usage, no ambient capabilities"
+
+[[audits.embed-resource]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-run"
+version = "2.1.1"
+notes = "No unsafe usage, does use file system at time and runs resource compiler to embed it into executable which looks sound. Intended to be used only at build time"

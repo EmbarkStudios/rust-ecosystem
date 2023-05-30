@@ -196,7 +196,11 @@ criteria = "safe-to-deploy"
 user-id = 52553
 start = "2021-01-01"
 end = "2024-05-23"
-notes = "Maintained by Embark"
+notes = """
+Maintained by Embark. 
+Note that this crate is explicitly for the purpose of testing aborting & crashing your application in different ways, 
+which we use to verify that our crash reporting systems work properly
+"""
 
 [[wildcard-audits.saft]]
 who = "Niklas Nummelin <opensource@embark-studios.com>"

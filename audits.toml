@@ -683,3 +683,9 @@ who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-run"
 version = "4.4.0"
 notes = "Small build-time crate to find path of binary. Single unsafe usage, file system access, both look sound"
+
+[[audits.wasmbin-derive]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.2.2"
+notes = "Proc macro. No unsafe usage or ambient capabilities"

@@ -802,3 +802,13 @@ who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "0.3.3"
 notes = "Lots of unsafe code for calling into C FFI functions, looks pretty simple and sound though. No ambient capabilities"
+
+[[audits.ittapi-sys]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.3.3"
+notes = """
+Builds C/asm dependency which this review has not audited in detail, but is well established from Intel. 
+Exposes FFI types & functions generated through bindgen. No other logic.
+No ambient capabilities
+"""

@@ -796,3 +796,9 @@ who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "0.7.4"
 notes = "No unsafe usage or ambient capabilities"
+
+[[audits.ittapi]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.3.3"
+notes = "Lots of unsafe code for calling into C FFI functions, looks pretty simple and sound though. No ambient capabilities"

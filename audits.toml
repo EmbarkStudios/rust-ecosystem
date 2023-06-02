@@ -766,3 +766,9 @@ who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "0.4.1"
 notes = "No unsafe usage. Minor ambient capabilities with reading an environment variable"
+
+[[audits.jsonwebtoken]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "8.3.0"
+notes = "No unsafe usage or ambient capabilities"

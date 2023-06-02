@@ -742,3 +742,9 @@ who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "1.0.2"
 notes = "Proc macro. No unsafe usage or ambient capabilities"
+
+[[audits.quickcheck_macros]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "1.0.0"
+notes = "Proc macro. No unsafe usage or ambient capabilities"

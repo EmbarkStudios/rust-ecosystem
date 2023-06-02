@@ -748,3 +748,9 @@ who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "1.0.0"
 notes = "Proc macro. No unsafe usage or ambient capabilities"
+
+[[audits.async-channel]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "1.8.0"
+notes = "No unsafe usage or ambient capabilities"

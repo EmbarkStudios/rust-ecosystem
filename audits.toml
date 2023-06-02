@@ -772,3 +772,9 @@ who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "8.3.0"
 notes = "No unsafe usage or ambient capabilities"
+
+[[audits.lewton]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.10.2"
+notes = "No unsafe usage or ambient capabilities"

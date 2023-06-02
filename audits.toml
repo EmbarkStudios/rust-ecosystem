@@ -671,7 +671,7 @@ criteria = "safe-to-deploy"
 delta = "0.5.11 -> 0.6.1"
 notes = "Minor changes"
 
-[[audits.cfg-aliases]]
+[[audits.cfg_aliases]]
 who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "0.1.1"
@@ -736,3 +736,9 @@ who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-run"
 version = "2.0.2"
 notes = "No unsafe usage or ambient capabilities"
+
+[[audits.async-recursion]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "1.0.2"
+notes = "Proc macro. No unsafe usage or ambient capabilities"

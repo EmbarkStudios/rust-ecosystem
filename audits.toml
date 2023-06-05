@@ -855,6 +855,12 @@ criteria = "safe-to-deploy"
 version = "0.19.0"
 notes = "No unsafe usage (forbidden) or ambient capabilities"
 
+[[audits.ab_glyph]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.2.21"
+notes = "No unsafe usage or ambient capabilities"
+
 # ------------------------------------------------------------------------------------------
 # third party crates that we haven't audited, but we trust the author and release process of
 # ------------------------------------------------------------------------------------------

@@ -770,7 +770,7 @@ notes = "No unsafe usage or ambient capabilities"
 [[audits.autometrics]]
 who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
-version = "1.8.0"
+version = "0.4.1"
 notes = "Minor unsafe usage with safety comments, looks sound. No ambient capabilities"
 
 [[audits.autometrics-macros]]

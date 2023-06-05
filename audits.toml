@@ -377,6 +377,12 @@ who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-run"
 version = "0.6.0"
 
+[[audits.serial_test_derive]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-run"
+delta = "0.6.0 -> 0.8.0"
+notes = "No unsafe usage or ambient capabilities"
+
 [[audits.uname]]
 who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"

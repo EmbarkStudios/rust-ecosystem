@@ -309,7 +309,7 @@ notes = "Maintained by Embark. No unsafe usage or ambient capabilities"
 [[wildcard-audits.mirror-mirror]]
 who = "David Pedersen <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
-user-id = 52553
+user-id = 12432
 start = "2023-01-01"
 end = "2024-05-23"
 notes = "Maintained by Embark. No unsafe usage or ambient capabilities"
@@ -317,7 +317,7 @@ notes = "Maintained by Embark. No unsafe usage or ambient capabilities"
 [[wildcard-audits.mirror-mirror-macros]]
 who = "David Pedersen <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
-user-id = 52553
+user-id = 12432
 start = "2023-01-01"
 end = "2024-05-23"
 notes = "Maintained by Embark. No unsafe usage or ambient capabilities"

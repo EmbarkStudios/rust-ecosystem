@@ -848,3 +848,190 @@ who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "2.2.1"
 notes = "No unsafe usage or ambient capabilities"
+
+# ------------------------------------------------------------------------------------------
+# third party crates that we haven't audited, but we trust the author and release process of
+# ------------------------------------------------------------------------------------------
+
+
+[[trusted.cranelift-bforest]]
+criteria = "safe-to-deploy"
+user-id = 73222                                                                                                                                                    # wasmtime-publish
+start = "2023-01-01"
+end = "2024-05-26"
+notes = "Maintained by Bytecode Alliance that we (Embark) are part of and we trust their review & release process on https://github.com/bytecodealliance/wasmtime"
+
+[[trusted.cranelift-codegen]]
+criteria = "safe-to-deploy"
+user-id = 73222                                                                                                                                                    # wasmtime-publish
+start = "2023-01-01"
+end = "2024-05-26"
+notes = "Maintained by Bytecode Alliance that we (Embark) are part of and we trust their review & release process on https://github.com/bytecodealliance/wasmtime"
+
+[[trusted.cranelift-codegen-meta]]
+criteria = "safe-to-deploy"
+user-id = 73222                                                                                                                                                    # wasmtime-publish
+start = "2023-01-01"
+end = "2024-05-26"
+notes = "Maintained by Bytecode Alliance that we (Embark) are part of and we trust their review & release process on https://github.com/bytecodealliance/wasmtime"
+
+[[trusted.cranelift-codegen-shared]]
+criteria = "safe-to-deploy"
+user-id = 73222                                                                                                                                                    # wasmtime-publish
+start = "2023-01-01"
+end = "2024-05-26"
+notes = "Maintained by Bytecode Alliance that we (Embark) are part of and we trust their review & release process on https://github.com/bytecodealliance/wasmtime"
+
+[[trusted.cranelift-control]]
+criteria = "safe-to-deploy"
+user-id = 73222                                                                                                                                                    # wasmtime-publish
+start = "2023-01-01"
+end = "2024-05-26"
+notes = "Maintained by Bytecode Alliance that we (Embark) are part of and we trust their review & release process on https://github.com/bytecodealliance/wasmtime"
+
+[[trusted.cranelift-entity]]
+criteria = "safe-to-deploy"
+user-id = 73222                                                                                                                                                    # wasmtime-publish
+start = "2023-01-01"
+end = "2024-05-26"
+notes = "Maintained by Bytecode Alliance that we (Embark) are part of and we trust their review & release process on https://github.com/bytecodealliance/wasmtime"
+
+[[trusted.cranelift-frontend]]
+criteria = "safe-to-deploy"
+user-id = 73222                                                                                                                                                    # wasmtime-publish
+start = "2023-01-01"
+end = "2024-05-26"
+notes = "Maintained by Bytecode Alliance that we (Embark) are part of and we trust their review & release process on https://github.com/bytecodealliance/wasmtime"
+
+[[trusted.cranelift-isle]]
+criteria = "safe-to-deploy"
+user-id = 73222                                                                                                                                                    # wasmtime-publish
+start = "2023-01-01"
+end = "2024-05-26"
+notes = "Maintained by Bytecode Alliance that we (Embark) are part of and we trust their review & release process on https://github.com/bytecodealliance/wasmtime"
+
+[[trusted.cranelift-native]]
+criteria = "safe-to-deploy"
+user-id = 73222                                                                                                                                                    # wasmtime-publish
+start = "2023-01-01"
+end = "2024-05-26"
+notes = "Maintained by Bytecode Alliance that we (Embark) are part of and we trust their review & release process on https://github.com/bytecodealliance/wasmtime"
+
+[[trusted.cranelift-wasm]]
+criteria = "safe-to-deploy"
+user-id = 73222                                                                                                                                                    # wasmtime-publish
+start = "2023-01-01"
+end = "2024-05-26"
+notes = "Maintained by Bytecode Alliance that we (Embark) are part of and we trust their review & release process on https://github.com/bytecodealliance/wasmtime"
+
+[[trusted.wasi-cap-std-sync]]
+criteria = "safe-to-deploy"
+user-id = 73222                                                                                                                                                    # wasmtime-publish
+start = "2023-01-01"
+end = "2024-05-26"
+notes = "Maintained by Bytecode Alliance that we (Embark) are part of and we trust their review & release process on https://github.com/bytecodealliance/wasmtime"
+
+[[trusted.wasi-common]]
+criteria = "safe-to-deploy"
+user-id = 73222                                                                                                                                                    # wasmtime-publish
+start = "2023-01-01"
+end = "2024-05-26"
+notes = "Maintained by Bytecode Alliance that we (Embark) are part of and we trust their review & release process on https://github.com/bytecodealliance/wasmtime"
+
+[[trusted.wasmtime]]
+criteria = "safe-to-deploy"
+user-id = 73222                                                                                                                                                    # wasmtime-publish
+start = "2023-01-01"
+end = "2024-05-26"
+notes = "Maintained by Bytecode Alliance that we (Embark) are part of and we trust their review & release process on https://github.com/bytecodealliance/wasmtime"
+
+[[trusted.wasmtime-asm-macros]]
+criteria = "safe-to-deploy"
+user-id = 73222                                                                                                                                                    # wasmtime-publish
+start = "2023-01-01"
+end = "2024-05-26"
+notes = "Maintained by Bytecode Alliance that we (Embark) are part of and we trust their review & release process on https://github.com/bytecodealliance/wasmtime"
+
+[[trusted.wasmtime-cranelift]]
+criteria = "safe-to-deploy"
+user-id = 73222                                                                                                                                                    # wasmtime-publish
+start = "2023-01-01"
+end = "2024-05-26"
+notes = "Maintained by Bytecode Alliance that we (Embark) are part of and we trust their review & release process on https://github.com/bytecodealliance/wasmtime"
+
+[[trusted.wasmtime-cranelift-shared]]
+criteria = "safe-to-deploy"
+user-id = 73222                                                                                                                                                    # wasmtime-publish
+start = "2023-01-01"
+end = "2024-05-26"
+notes = "Maintained by Bytecode Alliance that we (Embark) are part of and we trust their review & release process on https://github.com/bytecodealliance/wasmtime"
+
+[[trusted.wasmtime-environ]]
+criteria = "safe-to-deploy"
+user-id = 73222                                                                                                                                                    # wasmtime-publish
+start = "2023-01-01"
+end = "2024-05-26"
+notes = "Maintained by Bytecode Alliance that we (Embark) are part of and we trust their review & release process on https://github.com/bytecodealliance/wasmtime"
+
+[[trusted.wasmtime-jit]]
+criteria = "safe-to-deploy"
+user-id = 73222                                                                                                                                                    # wasmtime-publish
+start = "2023-01-01"
+end = "2024-05-26"
+notes = "Maintained by Bytecode Alliance that we (Embark) are part of and we trust their review & release process on https://github.com/bytecodealliance/wasmtime"
+
+[[trusted.wasmtime-jit-debug]]
+criteria = "safe-to-deploy"
+user-id = 73222                                                                                                                                                    # wasmtime-publish
+start = "2023-01-01"
+end = "2024-05-26"
+notes = "Maintained by Bytecode Alliance that we (Embark) are part of and we trust their review & release process on https://github.com/bytecodealliance/wasmtime"
+
+[[trusted.wasmtime-jit-icache-coherence]]
+criteria = "safe-to-deploy"
+user-id = 73222                                                                                                                                                    # wasmtime-publish
+start = "2023-01-01"
+end = "2024-05-26"
+notes = "Maintained by Bytecode Alliance that we (Embark) are part of and we trust their review & release process on https://github.com/bytecodealliance/wasmtime"
+
+[[trusted.wasmtime-runtime]]
+criteria = "safe-to-deploy"
+user-id = 73222                                                                                                                                                    # wasmtime-publish
+start = "2023-01-01"
+end = "2024-05-26"
+notes = "Maintained by Bytecode Alliance that we (Embark) are part of and we trust their review & release process on https://github.com/bytecodealliance/wasmtime"
+
+[[trusted.wasmtime-types]]
+criteria = "safe-to-deploy"
+user-id = 73222                                                                                                                                                    # wasmtime-publish
+start = "2023-01-01"
+end = "2024-05-26"
+notes = "Maintained by Bytecode Alliance that we (Embark) are part of and we trust their review & release process on https://github.com/bytecodealliance/wasmtime"
+
+[[trusted.wasmtime-wasi]]
+criteria = "safe-to-deploy"
+user-id = 73222                                                                                                                                                    # wasmtime-publish
+start = "2023-01-01"
+end = "2024-05-26"
+notes = "Maintained by Bytecode Alliance that we (Embark) are part of and we trust their review & release process on https://github.com/bytecodealliance/wasmtime"
+
+[[trusted.wiggle]]
+criteria = "safe-to-deploy"
+user-id = 73222                                                                                                                                                    # wasmtime-publish
+start = "2023-01-01"
+end = "2024-05-26"
+notes = "Maintained by Bytecode Alliance that we (Embark) are part of and we trust their review & release process on https://github.com/bytecodealliance/wasmtime"
+
+[[trusted.wiggle-generate]]
+criteria = "safe-to-deploy"
+user-id = 73222                                                                                                                                                    # wasmtime-publish
+start = "2023-01-01"
+end = "2024-05-26"
+notes = "Maintained by Bytecode Alliance that we (Embark) are part of and we trust their review & release process on https://github.com/bytecodealliance/wasmtime"
+
+[[trusted.wiggle-macro]]
+criteria = "safe-to-deploy"
+user-id = 73222                                                                                                                                                    # wasmtime-publish
+start = "2023-01-01"
+end = "2024-05-26"
+notes = "Maintained by Bytecode Alliance that we (Embark) are part of and we trust their review & release process on https://github.com/bytecodealliance/wasmtime"

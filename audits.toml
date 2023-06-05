@@ -830,3 +830,9 @@ who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "1.0.10"
 notes = "Single unsafe usage that looks sound. No ambient capabilities"
+
+[[audits.unicode_ident]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "1.0.9"
+notes = "No unsafe usage or ambient capabilities"

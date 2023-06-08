@@ -927,6 +927,53 @@ criteria = "safe-to-deploy"
 version = "1.2.0"
 notes = "Tiny proc marcro. No unsafe usage or ambient capabilities"
 
+[[audits.jni]]
+who = "Robert Bragg <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.21.1"
+notes = """Aims to provide a safe JNI (Java Native Interface) API over the
+unsafe `jni_sys` crate.
+
+This is a very general FFI abstraction for Java VMs with a lot of unsafe code
+throughout the API. There are almost certainly some edge cases with its design
+that could lead to unsound behaviour but it should still be considerably safer
+than working with JNI directly.
+
+A lot of the unsafe usage relates to quite-simple use of `from_raw` APIs to
+construct or cast wrapper types (around JNI pointers) which are fairly
+straight-forward to verify/trust in context.
+
+Some unsafe code has good `// # Safety` documentation (this has been enforced for
+newer code) but a lot of unsafe code doesn't document invariants that are
+being relied on.
+
+The design depends on non-trivial named lifetimes across many APIs to associate
+Java local references with JNI stack frames.
+
+The crate is not very actively maintained and was practically unmaintained for
+over a year before the 0.20 release.
+
+Robert Bragg who now works at Embark Studios became the maintainer of this
+crate in October 2022.
+
+In the process of working on the `jni` crate since becoming maintainer it's
+worth noting that I came across multiple APIs that I found needed to be
+re-worked to address safety issues, including ensuring that APIs that are not
+implemented safely are correctly declared as `unsafe`.
+
+There has been a focus on improving safety in the last two release.
+
+The jni crate has been used in production with the Signal messaging application
+for over two years:
+https://github.com/signalapp/libsignal/blob/main/rust/bridge/jni/Cargo.toml
+
+# Some Notable Open Issues
+- https://github.com/jni-rs/jni-rs/issues/422 - questions soundness of linking
+  multiple versions of jni crate into an application, considering the use
+  of (separately scoped) thread-local-storage to track thread attachments
+- https://github.com/jni-rs/jni-rs/issues/405 - discusses the ease with which
+  code may expose the JVM to invalid booleans with undefined behaviour
+"""
 
 # ------------------------------------------------------------------------------------------
 # third party crates that we haven't audited, but we trust the author and release process of

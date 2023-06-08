@@ -903,6 +903,13 @@ NDK APIs used, which are generally also implemented in C/C++.
 Written by Robert Bragg who now works at Embark Studios.
 """
 
+[[audits.mimalloc]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.1.37"
+notes = "Tiny allocator layer on top of the C sys crate. No ambient capabilities"
+
+
 # ------------------------------------------------------------------------------------------
 # third party crates that we haven't audited, but we trust the author and release process of
 # ------------------------------------------------------------------------------------------

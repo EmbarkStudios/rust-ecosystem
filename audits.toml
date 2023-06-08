@@ -921,6 +921,12 @@ criteria = "safe-to-deploy"
 version = "1.2.0"
 notes = "No unsafe usage or ambient capabilities"
 
+[[audits.gltf-derive]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "1.2.0"
+notes = "Tiny proc marcro. No unsafe usage or ambient capabilities"
+
 
 # ------------------------------------------------------------------------------------------
 # third party crates that we haven't audited, but we trust the author and release process of

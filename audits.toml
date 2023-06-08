@@ -885,6 +885,23 @@ criteria = "safe-to-deploy"
 version = "1.0.0"
 notes = "No unsafe usage or ambient capabilities. No functionality in it beyond a #[test]. "
 
+[[audits.android-activity]]
+who = "Robert Bragg <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.4.1"
+notes = """Some unsafe usage for JNI/FFI, such as implementing extern \"C\" functions for
+NativeActivity and to use the `ndk_sys` FFI bindings for the Android NDK libraries.
+
+The GameActivity backend depends on around 2k lines of third-party C/C++ code from Google
+as well as around 500 lines of C++ code for the GameText (input method) support.
+The C/C++ code is compiled with the `cc` crate.
+
+Although I have reviewed all of the C/C++ code for GameActivity + GameText there
+could be unknown soundness issues in there or potentially in any of the Android
+NDK APIs used, which are generally also implemented in C/C++.
+
+Written by Robert Bragg who now works at Embark Studios.
+"""
 
 # ------------------------------------------------------------------------------------------
 # third party crates that we haven't audited, but we trust the author and release process of

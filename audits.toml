@@ -975,6 +975,12 @@ https://github.com/signalapp/libsignal/blob/main/rust/bridge/jni/Cargo.toml
   code may expose the JVM to invalid booleans with undefined behaviour
 """
 
+[[audits.colorchoice]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "1.0.0"
+notes = "No unsafe usage or ambient capabilities"
+
 # ------------------------------------------------------------------------------------------
 # third party crates that we haven't audited, but we trust the author and release process of
 # ------------------------------------------------------------------------------------------

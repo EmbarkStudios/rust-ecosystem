@@ -987,6 +987,12 @@ criteria = "safe-to-deploy"
 version = "0.2.1"
 notes = "Single unsafe usage that looks sound, no ambient capabilities"
 
+[[audits.spez]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.1.2"
+notes = "Proc macro. No unsafe usage or ambient capabilities"
+
 # ------------------------------------------------------------------------------------------
 # third party crates that we haven't audited, but we trust the author and release process of
 # ------------------------------------------------------------------------------------------

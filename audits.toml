@@ -779,11 +779,21 @@ criteria = "safe-to-deploy"
 version = "0.4.1"
 notes = "Minor unsafe usage with safety comments, looks sound. No ambient capabilities"
 
+[[audits.autometrics]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+delta = "0.4.1 -> 0.5.0"
+
 [[audits.autometrics-macros]]
 who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 version = "0.4.1"
 notes = "No unsafe usage. Minor ambient capabilities with reading an environment variable"
+
+[[audits.autometrics-macros]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+delta = "0.4.1 -> 0.5.0"
 
 [[audits.jsonwebtoken]]
 who = "Johan Andersson <opensource@embark-studios.com>"

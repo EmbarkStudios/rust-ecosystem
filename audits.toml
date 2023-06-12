@@ -1012,13 +1012,13 @@ notes = "Proc macro. No unsafe usage or ambient capabilities"
 [[audits.schemars]]
 who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
-version = "0.18.12"
+version = "0.8.12"
 notes = "No unsafe usage (forbidden) or ambient capabilities"
 
 [[audits.schemars_derive]]
 who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
-version = "0.18.12"
+version = "0.8.12"
 notes = "Proc macro. No unsafe usage (forbidden) or ambient capabilities"
 
 [[audits.typed-builder]]

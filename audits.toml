@@ -461,6 +461,12 @@ criteria = "safe-to-deploy"
 version = "0.24.1"
 notes = "Tiny layer on top of the proc macro crate, found no unsafe or system usage"
 
+[[audits.strum_macros]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.24.3"
+notes = "Proc macro. No unsafe or added ambient capabilities"
+
 [[audits.mimalloc]]
 who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"

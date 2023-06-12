@@ -1011,6 +1011,17 @@ criteria = "safe-to-deploy"
 version = "0.18.12"
 notes = "Proc macro. No unsafe usage (forbidden) or ambient capabilities"
 
+[[audits.typed-builder]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.12.0"
+notes = "Proc macro. No unsafe usage or ambient capabilities"
+
+[[audits.typed-builder]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+delta = "0.12.0 -> 0.14.0"
+
 # ------------------------------------------------------------------------------------------
 # third party crates that we haven't audited, but we trust the author and release process of
 # ------------------------------------------------------------------------------------------

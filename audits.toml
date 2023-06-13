@@ -1049,6 +1049,12 @@ criteria = "safe-to-deploy"
 version = "0.9.0"
 notes = "No unsafe usage or ambient capabilities"
 
+[[audits.idna]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+delta = "0.3.0 -> 0.4.0"
+notes = "No unsafe usage or ambient capabilities"
+
 # ------------------------------------------------------------------------------------------
 # third party crates that we haven't audited, but we trust the author and release process of
 # ------------------------------------------------------------------------------------------

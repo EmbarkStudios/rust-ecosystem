@@ -1193,6 +1193,12 @@ criteria = "safe-to-deploy"
 version = "0.9.1"
 notes = "No unsafe usage or ambient capabilities"
 
+[[audits.scan_fmt]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.2.6"
+notes = "No unsafe usage or ambient capabilities"
+
 # ------------------------------------------------------------------------------------------
 # third party crates that we haven't audited, but we trust the author and release process of
 # ------------------------------------------------------------------------------------------

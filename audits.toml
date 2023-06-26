@@ -1169,6 +1169,12 @@ criteria = "safe-to-deploy"
 version = "0.2.5"
 notes = "No unsafe usage or ambient capabilities. Only type definitions & conversions"
 
+[[audits.std_prelude]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.2.12"
+notes = "No unsafe usage or ambient capabilities. Only re-exports std types. However I would not recommend using this crate as it is an unnecessary dependency and indirection, and makes it harder to audit other code over standard explicit std imports"
+
 # ------------------------------------------------------------------------------------------
 # third party crates that we haven't audited, but we trust the author and release process of
 # ------------------------------------------------------------------------------------------

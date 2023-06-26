@@ -1211,6 +1211,12 @@ criteria = "safe-to-deploy"
 version = "0.3.0"
 notes = "No unsafe usage or ambient capabilities"
 
+[[audits.stringprep]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.1.2"
+notes = "No unsafe usage or ambient capabilities. Old crate from released and unchanged from 2017"
+
 # ------------------------------------------------------------------------------------------
 # third party crates that we haven't audited, but we trust the author and release process of
 # ------------------------------------------------------------------------------------------

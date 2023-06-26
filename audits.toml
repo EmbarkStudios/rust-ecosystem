@@ -1066,6 +1066,18 @@ criteria = "safe-to-deploy"
 version = "0.17.9"
 notes = "No unsafe usage (forbidden) or ambient capabilities"
 
+[[audits.png]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.17.9"
+notes = "No unsafe usage (forbidden) or ambient capabilities"
+
+[[audits.postgres-types]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.2.5"
+notes = "No unsafe usage or ambient capabilities. Only type definitions & conversions"
+
 # ------------------------------------------------------------------------------------------
 # third party crates that we haven't audited, but we trust the author and release process of
 # ------------------------------------------------------------------------------------------

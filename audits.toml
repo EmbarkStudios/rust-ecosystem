@@ -1199,6 +1199,12 @@ criteria = "safe-to-deploy"
 version = "0.2.6"
 notes = "No unsafe usage or ambient capabilities"
 
+[[audits.fixedvec]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+version = "0.2.4"
+notes = "No unsafe usage or ambient capabilities. Clean, simple, no dependencies, no std"
+
 # ------------------------------------------------------------------------------------------
 # third party crates that we haven't audited, but we trust the author and release process of
 # ------------------------------------------------------------------------------------------

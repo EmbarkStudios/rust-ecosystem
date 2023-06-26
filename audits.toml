@@ -322,6 +322,97 @@ start = "2023-01-01"
 end = "2024-05-23"
 notes = "Maintained by Embark. No unsafe usage or ambient capabilities"
 
+[[wildcard-audits.cfg-expr]]
+who = "Jake Shadle <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+user-id = 52553
+start = "2020-01-01"
+end = "2024-05-23"
+notes = "Maintained by Embark. No unsafe usage or ambient capabilities"
+
+[[wildcard-audits.krates]]
+who = "Jake Shadle <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+user-id = 52553
+start = "2020-01-01"
+end = "2024-05-23"
+notes = """
+Maintained by Embark.
+
+No unsafe usage but does allow calling of cargo via the cargo_metadata crate
+"""
+
+[[wildcard-audits.tame-gcs]]
+who = "Jake Shadle <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+user-id = 52553
+start = "2020-01-01"
+end = "2024-05-23"
+notes = "Maintained by Embark. No unsafe usage or ambient capabilities"
+
+[[wildcard-audits.spdx]]
+who = "Jake Shadle <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+user-id = 52553
+start = "2020-01-01"
+end = "2024-05-23"
+notes = "Maintained by Embark. No unsafe usage or ambient capabilities"
+
+[[wildcard-audits.discord-sdk]]
+who = "Jake Shadle <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+user-id = 52553
+start = "2021-01-01"
+end = "2024-05-23"
+notes = """
+Maintained by Embark.
+
+No unsafe usage, but can get the path to the process it is running in
+"""
+
+[[wildcard-audits.crash-context]]
+who = "Jake Shadle <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+user-id = 52553
+start = "2023-01-01"
+end = "2024-05-23"
+notes = """
+Maintained by Embark.
+
+This crate contains a large amount of unsafe code as it is provides assembly
+code for capturing CPU contexts, as well as a large chunk of unsafe code on
+MacOS for interacting with mach ports, but is fairly thoroughly tested.
+"""
+
+[[wildcard-audits.crash-handler]]
+who = "Jake Shadle <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+user-id = 52553
+start = "2023-01-01"
+end = "2024-05-23"
+notes = """
+Maintained by Embark.
+
+This crate contains a large amount of unsafe code as it is interacting with OS
+signal/exception handling functionality, but is fairly thoroughly tested. Note
+on Linux targets, this also performs an interposition of pthread_create.
+"""
+
+[[wildcard-audits.minidumper]]
+who = "Jake Shadle <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+user-id = 52553
+start = "2023-01-01"
+end = "2024-05-23"
+notes = """
+Maintained by Embark.
+
+This crate contains a large amount of unsafe code for implementing IPC between 2
+local processes, as well as calling into the minidump-writer crate which also
+contains a significant amount of unsafe to dump a processes state, but is fairly
+thoroughly tested.
+"""
+
 # ------------------------------------------------------------------
 # third party crates we've done at least light audit / inspection of 
 # ------------------------------------------------------------------

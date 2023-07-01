@@ -556,6 +556,11 @@ who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-run"
 delta = "0.30.0 -> 0.31.1"
 
+[[audits.public-api]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-run"
+delta = "0.31.1 -> 0.31.2"
+
 [[audits.strum]]
 who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"

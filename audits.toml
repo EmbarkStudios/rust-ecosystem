@@ -783,6 +783,11 @@ criteria = "safe-to-deploy"
 delta = "0.5.11 -> 0.6.1"
 notes = "Minor changes"
 
+[[audits.num_enum]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+delta = "0.6.1 -> 0.7.0"
+
 [[audits.num_enum_derive]]
 who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
@@ -794,6 +799,11 @@ who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"
 delta = "0.5.11 -> 0.6.1"
 notes = "Minor changes"
+
+[[audits.num_enum_derive]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+delta = "0.6.1 -> 0.7.0"
 
 [[audits.cfg_aliases]]
 who = "Johan Andersson <opensource@embark-studios.com>"

@@ -507,6 +507,11 @@ who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-run"
 delta = "0.8.4 -> 0.8.6"
 
+[[audits.rustdoc-json]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-run"
+delta = "0.8.6 -> 0.8.7"
+
 [[audits.rustdoc-types]]
 who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-run"

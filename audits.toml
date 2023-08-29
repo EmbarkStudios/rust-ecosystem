@@ -729,6 +729,12 @@ criteria = "safe-to-deploy"
 delta = "0.15.3 -> 0.15.4"
 notes = "No notable changes"
 
+[[audits.cargo_metadata]]
+who = "Johan Andersson <opensource@embark-studios.com>"
+criteria = "safe-to-deploy"
+delta = "0.15.4 -> 0.17.0"
+notes = "No notable changes"
+
 [[audits.toml_datetime]]
 who = "Johan Andersson <opensource@embark-studios.com>"
 criteria = "safe-to-deploy"

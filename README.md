@@ -99,7 +99,6 @@ We believe that open source creators are integral to the success of the Rust eco
 
 Projects we are currently sponsoring:
 
-* __[Bevy](https://bevyengine.org/)__ - _"A refreshingly simple data-driven game engine built in Rust"_
 * __[Dimforge](https://www.dimforge.com/)__ - _"Open-Source Rust crates for numerical simulation"_
 * __[rust-analyzer](https://github.com/rust-analyzer/rust-analyzer)__ - _"Bringing a great IDE experience
 to the Rust programming language"_

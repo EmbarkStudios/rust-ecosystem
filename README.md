@@ -93,23 +93,6 @@ We track and discuss these from our perspective in the __[Issues](https://github
 
 Also check out the [Rust Game Development Working Group](https://github.com/rust-gamedev/wg).
 
-## Sponsorships
-
-We believe that open source creators are integral to the success of the Rust ecosystem, as well as our own success. We offer monetary sponsorship to several individuals and projects via Patreon, GitHub and OpenCollective.
-
-Projects we are currently sponsoring:
-
-* __[Bevy](https://bevyengine.org/)__ - _"A refreshingly simple data-driven game engine built in Rust"_
-* __[Dimforge](https://www.dimforge.com/)__ - _"Open-Source Rust crates for numerical simulation"_
-* __[rust-analyzer](https://github.com/rust-analyzer/rust-analyzer)__ - _"Bringing a great IDE experience
-to the Rust programming language"_
-* __[Clap](https://github.com/clap-rs/clap)__ - _"Fast. Configurable. Argument Parsing for Rust"_
-* __[Gtk-rs](https://gtk-rs.org/)__ - _"Rust bindings for GTK+ 3, Cairo, GtkSourceView and other GLib-compatible libraries"_
-* __[knurling-rs](https://knurling.ferrous-systems.com/)__ - _"Improving the tools and material used to build, debug, and learn embedded systems"_
-* __[Tokio](https://tokio.rs)__ - _"Build reliable network applications without compromising speed"_
-
-Full list of projects and individual developers we are sponsoring: [OpenCollective](https://opencollective.com/embarkstudios), [GitHub Sponsors](https://github.com/embark-studios?tab=sponsoring) and [Patreon](https://www.patreon.com/embarkstudios/creators).
-
 ## Work with us
 
 We're actively looking to collaborate with developers on the areas discussed in this repository. If you're interested in working on a specific issue or idea highlighted here, please reach out to us at [`opensource@embark-studios.com`](mailto:opensource@embark-studios.com) to discuss contracting opportunities or sponsorship.
